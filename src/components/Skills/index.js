@@ -117,7 +117,8 @@ const Skills = () => {
         <Wrapper>
             <Title>Skills</Title>
             <Desc>
-                Here are some of my skills on which I have been working on for the past 2 years.
+                {/* Here are some of my skills on which I have been working on for the past 2 years. */}
+                Some of the things I've picked up along the way ...
             </Desc>
             <SkillsContainer>
                 {skills.map((item) => (
@@ -125,7 +126,7 @@ const Skills = () => {
                         <SkillTitle>{item.title}</SkillTitle>
                         <SkillList>
                             {
-                                item.skills.map((skill) => (
+                                item.skills.map((skill, index) => (
                                     <SkillItem>
                                         <SkillImage src = {skill.image} />
                                         {skill.name}
