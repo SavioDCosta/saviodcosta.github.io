@@ -154,15 +154,15 @@ const Navbar = () => {
     const theme = useTheme();
     return <Nav>
         <NavContainer>
-            <NavLogo to='/'>
-                <a style={{
+            <NavLogo to = '/'>
+                <a style = {{
                     display: 'flex',
                     alignItems: 'center',
                     color: 'white',
                     marginBottom: '20',
                     cursor: 'pointer',
                 }}>
-                    <ImProfile size='3rem'/><Span>Portfolio</Span>
+                    <ImProfile size = '3rem'/><Span>Portfolio</Span>
                 </a>
             </NavLogo>
             <MobileIcon>
@@ -173,58 +173,57 @@ const Navbar = () => {
                 />
             </MobileIcon>
             <NavItems>
-                <NavLink href='#about'>About</NavLink>
-                <NavLink href='#skills'>Skills</NavLink>
-                <NavLink href='#experience'>Experience</NavLink>
-                <NavLink href='#projects'>Projects</NavLink>
-                <NavLink href='#education'>Education</NavLink>
+                <NavLink href = '#about'>About</NavLink>
+                <NavLink href = '#skills'>Skills</NavLink>
+                <NavLink href = '#experience'>Experience</NavLink>
+                <NavLink href = '#projects'>Projects</NavLink>
+                <NavLink href = '#education'>Education</NavLink>
             </NavItems>
             <ButtonContainer>
                 <GithubButton>Github Profile</GithubButton>
             </ButtonContainer>
-        </NavContainer>
-        {
+        </NavContainer>{
             open && (
                 <MobileMenu open={open}>
                     <MobileMenuLink
-                        href='#about'
-                        onClick={() => {
+                        href = '#about'
+                        onClick = {() => {
                             setOpen(!open);
                         }}
                     >About</MobileMenuLink>
                     <MobileMenuLink
-                        href='#skills'
-                        onClick={() => {
+                        href = '#skills'
+                        onClick = {() => {
                             setOpen(!open);
                         }}
                     >Skills</MobileMenuLink>
                     <MobileMenuLink
-                        href='#experience'
-                        onClick={() => {
+                        href = '#experience'
+                        onClick = {() => {
                             setOpen(!open);
                         }}
                     >Experience</MobileMenuLink>
                     <MobileMenuLink
-                        href='#projects'
-                        onClick={() => {
+                        href = '#projects'
+                        onClick = {() => {
                             setOpen(!open);
                         }}
                     >Projects</MobileMenuLink>
                     <MobileMenuLink
-                        href='#education'
-                        onClick={() => {
+                        href = '#education'
+                        onClick = {() => {
                             setOpen(!open);
                         }}
                     >Education</MobileMenuLink>
                     <GithubButton 
-                        style={{
+                        style = {{
                             padding: '10px 16px',
                             background: `${theme}.primary`,
                             color: 'white',
                             width: 'max-content',
                         }}
-                        href='/'
-                        target='_blank'
+                        href = '/'
+                        target = '_blank'
                     >Github Profile
                     </GithubButton>
                 </MobileMenu>
