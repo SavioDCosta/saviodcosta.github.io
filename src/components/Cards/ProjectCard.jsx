@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Card = styled.div`
     width: 330px;;
-    height: 490px;
+    height: 310px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -93,6 +93,11 @@ const Description = styled.div`
     display: -webkit-box;
     margin-top: 8px;
     max-width: 100%;
+    pre {
+        /* Styles for the nested <pre> tag */
+        white-space: pre-wrap;
+        margin: 0; /* Reset margin for <pre> */
+    }
 `;
 
 const Avatar = styled.img`
@@ -108,7 +113,7 @@ const Avatar = styled.img`
 const ProjectCard = ({project, setOpenModal}) => {
   return (
     <Card onClick = {() => setOpenModal({state: true, project: project})}>
-        <Image src = {project.image}></Image>
+        {/* <Image src = {project.image}></Image> */}
         <Tags>
             {project.tags.map((tag) => (
                 <Tag key = {tag}>{tag}</Tag>
@@ -119,11 +124,11 @@ const ProjectCard = ({project, setOpenModal}) => {
             <Date>{project.date}</Date>
             <Description>{project.description}</Description>
         </Details>
-        <Members>
+        {/* <Members>
             {project?.member?.map((member) => (
                 <Avatar src = {member.img}></Avatar>
             ))}
-        </Members>
+        </Members> */}
     </Card>
   )
 }

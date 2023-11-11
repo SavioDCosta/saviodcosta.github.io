@@ -52,14 +52,23 @@ const Date = styled.div`
     }
 `;
 
-const Desc = styled.div`
+const Description = styled.div`
     font-size: 16px;
     font-weight: 400;
     color: ${({ theme }) => theme.text_primary};
     margin: 8px 6px;
+    pre {
+        font-size: 16px;
+        white-space: pre-wrap;
+        margin: 0; 
+    }
     @media only screen and (max-width: 600px) {
         font-size: 14px;
         margin: 6px 6px;
+        pre {
+            font-size: 14px;
+            margin: 6px 6px; 
+        }
     }
 `;
 
@@ -193,7 +202,7 @@ const index = ({ openModal, setOpenModal }) => {
                         }}
                         onClick = {() => setOpenModal({ state: false, project: null })}
                     />
-                    <Image src = {project?.image} />
+                    {/* <Image src = {project?.image} /> */}
                     <Title>{project?.title}</Title>
                     <Date>{project.date}</Date>
                     <Tags>
@@ -201,8 +210,8 @@ const index = ({ openModal, setOpenModal }) => {
                             <Tag>{tag}</Tag>
                         ))}
                     </Tags>
-                    <Desc>{project?.description}</Desc>
-                    {project.member && (
+                    <Description><pre>{project?.description}</pre></Description>
+                    {/* {project.member && (
                         <>
                             <Label>Members</Label>
                             <Members>
@@ -220,11 +229,11 @@ const index = ({ openModal, setOpenModal }) => {
                                 ))}
                             </Members>
                         </>
-                    )}
-                    <ButtonGroup>
+                    )} */}
+                    {/* <ButtonGroup>
                         <Button dull href = {project?.github} target = 'new'>View Code</Button>
                         <Button href = {project?.webapp} target = 'new'>View Live App</Button>
-                    </ButtonGroup>
+                    </ButtonGroup> */}
                 </Wrapper>
             </Container>
         </Modal>
