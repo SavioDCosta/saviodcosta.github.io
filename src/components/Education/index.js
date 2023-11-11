@@ -18,7 +18,7 @@ const Container = styled.div`
     align-items: center;
     padding: 80px 0px 80px 0px;
     @media only screen and (max-width: 960px) {
-        padding: 0px;
+        padding: 70px 16px;
     }
 `;
 

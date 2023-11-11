@@ -11,8 +11,8 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    @media (max-width: 960px) {
-        padding: 0px;
+    @media only screen and (max-width: 960px) {
+        padding: 70px 16px;
     }
     padding: 80px 0px;
 `

@@ -17,6 +17,9 @@ const Container = styled.div`
     align-items: center;
     padding: 70px 0px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%);
+    @media only screen and (max-width: 960px) {
+        padding: 70px 16px;
+    }
 `;
 
 const Wrapper = styled.div`
