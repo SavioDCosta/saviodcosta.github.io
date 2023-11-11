@@ -42,9 +42,11 @@ function App() {
           <Wrapper>
             <Skills />
             <Experience />
-            <Projects />
-            <Education />
           </Wrapper>
+          <Wrapper>
+            <Projects />
+          </Wrapper>
+          <Education />
         </Body>
       </Router>
     </ThemeProvider>

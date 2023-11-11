@@ -16,7 +16,10 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    padding: 50px 0px;
+    padding: 40px 0px 80px 0px;
+    @media only screen and (max-width: 960px) {
+        padding: 0px;
+    }
 `;
 
 const Wrapper = styled.div`
