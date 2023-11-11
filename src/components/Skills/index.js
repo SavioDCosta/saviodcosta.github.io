@@ -28,7 +28,7 @@ const Title = styled.h1`
     text-align: center;
     margin-top: 12px;
     color: ${({ theme }) => theme.text_primary};
-    @media (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         margin-top: 12px;
         font-size: 32px;
     }
@@ -39,7 +39,7 @@ const Desc = styled.div`
     max-width: 600px;
     text-align: center;
     color: ${({ theme }) => theme.text_secondary};
-    @media (max-width: 76px) {
+    @media only screen and (max-width: 768px) {
         font-size: 16px;
     }
 `;
@@ -60,11 +60,11 @@ const Skill = styled.div`
     border: 0.1px solid #854CE6;
     border-radius: 16px;
     padding: 18px 36px;
-    @media (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         max-width: 400px;
         padding: 10px 36px;
     }
-    @media (max-width: 500px) {
+    @media only screen and (max-width: 500px) {
         max-width: 330px;
         padding: 10px 36px;
     }
@@ -97,11 +97,11 @@ const SkillItem = styled.div`
     border: 1px solid ${({ theme }) => theme.text_primary + 80};
     padding: 12px 16px;
     font-weight: 400;
-    @media (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         font-size: 14px;
         padding: 8px 12px;
     }
-    @media (max-width: 500px) {
+    @media only screen and (max-width: 500px) {
         font-size: 14px;
         padding: 6px 12px;
     }

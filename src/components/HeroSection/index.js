@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Bio } from '../../data/constants'
+import { bio } from '../../data/constants'
 import Typewriter from 'typewriter-effect';
 import HeroImg from '../../images/HeroImage.jpg';
 
@@ -10,10 +10,10 @@ const HeroContainer = styled.div`
     justify-content: center;
     position: relative;
     padding: 80px 30px;
-    @media screen and (max-width: 960px) {
+    @media only screen and (max-width: 960px) {
         padding: 66px 16px;
     }
-    @media screen and (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         padding: 32px 16px;
     }
     z-index: 1;
@@ -42,7 +42,7 @@ const HeroInnerContainer = styled.div`
     align-items: center;
     width: 100%;
     max-width: 1100px;
-    @media screen and (max-width: 960px) {
+    @media only screen and (max-width: 960px) {
         flex-direction: column;
     }
 `;
@@ -50,14 +50,14 @@ const HeroInnerContainer = styled.div`
 const HeroLeftContainer = styled.div`
     width: 100%;
     order: 1;
-    @media screen and (max-width: 960px) {
+    @media only screen and (max-width: 960px) {
         order: 2;
         margin-bottom: 32px;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    @media screen and (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         order: 2;
         margin-bottom: 32px;
         display: flex;
@@ -72,13 +72,13 @@ const HeroRightContainer = styled.div`
     display: flex;
     justify-content: end;
     gap: 12px;
-    @media screen and (max-width: 960px) {
+    @media only screen and (max-width: 960px) {
         order: 1;
         margin-bottom: 80px;
         justify-content: center;
         align-items: center;
     }
-    @media screen and (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         order: 1;
         margin-bottom: 30px;
     }
@@ -89,10 +89,10 @@ const Title = styled.div`
     font-weight: 700;
     color: ${({ theme }) => theme.text_primary};
     line-height: 68px;
-    @media screen and (max-width: 960px) {
+    @media only screen and (max-width: 960px) {
         text-align: center;
     }
-    @media screen and (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         font-size: 40px;
         line-height: 9px;
         margin-bottom: 8px;
@@ -106,10 +106,10 @@ const TextLoop = styled.div`
     line-height: 68px;
     gap: 12px;
     display: flex;
-    @media screen and (max-width: 960px) {
+    @media only screen and (max-width: 960px) {
         text-align: center;
     }
-    @media screen and (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         font-size: 22px;
         line-height: 48px;
         margin-bottom: 16px;
@@ -126,10 +126,10 @@ const SubTitle = styled.div`
     color: ${({ theme }) => theme.text_primary+95};
     line-height: 32px;
     margin-bottom: 42px;
-    @media screen and (max-width: 960px) {
+    @media only screen and (max-width: 960px) {
         text-align: center;
     }
-    @media screen and (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         font-size: 16px;
         line-height: 24px;
     }
@@ -162,7 +162,7 @@ const ResumeButton = styled.a`
         box-shadow:  20px 20px 60px #1F2634;
         filter: brightness(1);
     }    
-    @media (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
     } 
@@ -178,11 +178,11 @@ const Image = styled.img`
     object-fit: cover;
     object-position: center;
     border: 2px solid ${({ theme }) => theme.primary};
-    @media (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         max-height: 400px;
         max-width: 400px;
     }
-    @media (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         max-height: 280px;
         max-width: 280px;
     }
@@ -195,20 +195,20 @@ const Hero = () => {
             <HeroInnerContainer>
                 <HeroLeftContainer>
                     <Title>
-                        Hi, I am {Bio.name}<br />
+                        Hi, I am {bio.name}<br />
                     </Title>
                     <TextLoop>
                         I am a 
                         <Span>
                             <Typewriter options={{
-                                strings: Bio.roles,
+                                strings: bio.roles,
                                 autoStart: true,
                                 loop: true,
                             }} />
                         </Span>
                     </TextLoop>
-                    <SubTitle>{Bio.description}</SubTitle>
-                    <ResumeButton href = {Bio.resume} target = 'display'>
+                    <SubTitle>{bio.description}</SubTitle>
+                    <ResumeButton href = {bio.resume} target = 'display'>
                         Check Resume
                     </ResumeButton>
                 </HeroLeftContainer>

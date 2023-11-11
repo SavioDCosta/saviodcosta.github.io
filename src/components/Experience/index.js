@@ -36,7 +36,7 @@ const Title = styled.h1`
     text-align: center;
     margin-top: 12px;
     color: ${({ theme }) => theme.text_primary};
-    @media (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         margin-top: 12px;
         font-size: 32px;
     }
@@ -47,7 +47,7 @@ const Desc = styled.div`
     max-width: 600px;
     text-align: center;
     color: ${({ theme }) => theme.text_secondary};
-    @media (max-width: 76px) {
+    @media only screen and (max-width: 768px) {
         font-size: 16px;
     }
 `;

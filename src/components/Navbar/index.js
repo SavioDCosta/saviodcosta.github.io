@@ -14,7 +14,7 @@ const Nav = styled.div`
     position: sticky;
     top: 0;
     z-index: 10;
-    @media screen and (max-width: 960px) {
+    @media only screen and (max-width: 960px) {
         transition: 0.8s all ease;
     }
 `;
@@ -25,20 +25,20 @@ const NavContainer = styled.div`
     height: 60px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
+    padding: 0px 24px;
     max-width: 1200px;
 `;
 
 const NavLogo = styled(LinkR)`
     width: 80%;
-    padding: 0 6px;
+    padding: 0px 6px;
     display: flex;
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
     align-items: center;
-    @media screen and (max-width: 640px) {
-        padding: 0 0px;
+    @media only screen and (max-width: 640px) {
+        padding: 0px 0px;
     }
 `;
 
@@ -63,7 +63,7 @@ const NavItems = styled.ul`
     align-items: center;
     gap: 32px;
     list-style: none;
-    @media screen and (max-width: 768px) {
+    @media only screen and (max-width: 768px) {
         display: none;
     }
 `;
@@ -85,8 +85,8 @@ const ButtonContainer = styled.div`
     justify-content: center;
     width: 80%;
     height: 100%;
-    padding: 0 6px;
-    @media screen and (max-width: 640px) {
+    padding: 0px 6px;
+    @media only screen and (max-width: 640px) {
         display: none;
     }
 `;
@@ -108,13 +108,13 @@ const GithubButton = styled.button`
         background-color: ${({ theme }) => theme.primary};
         color: ${({ theme }) => theme.white};
     }
-    @media screen and (max-width: 640px) {
+    @media only screen and (max-width: 640px) {
         font-size: 0.8rem;
     }
 `;
 
 const Span = styled.span`
-    padding: 0 4px;
+    padding: 0px 4px;
     font-weight: bold;
     font-size: 18px;
 `;
@@ -149,21 +149,23 @@ const MobileMenuLink = styled.div`
     }
 `;
 
+const StyledLink = styled.a`
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px; 
+    cursor: pointer;
+`;
+
 const Navbar = () => {
     const [open, setOpen] = React.useState(false);
     const theme = useTheme();
     return <Nav>
         <NavContainer>
             <NavLogo to = '/'>
-                <a style = {{
-                    display: 'flex',
-                    alignItems: 'center',
-                    color: 'white',
-                    marginBottom: '20',
-                    cursor: 'pointer',
-                }}>
+                <StyledLink>
                     <ImProfile size = '3rem'/><Span>Portfolio</Span>
-                </a>
+                </StyledLink>
             </NavLogo>
             <MobileIcon>
                 <FaBars 
