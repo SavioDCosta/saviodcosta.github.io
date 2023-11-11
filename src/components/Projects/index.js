@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import ProjectCard from '../Card/ProjectCard';
+import ProjectCard from '../Cards/ProjectCard';
 import { projects } from '../../data/constants';
 
 const Container = styled.div`
@@ -15,7 +15,7 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    padding: 50px 0px;
+    padding: 70px 0px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%);
 `;
 
@@ -101,57 +101,54 @@ const CardContainer = styled.div`
     gap: 28px;
 `;
 
-const Projects = () => {
+const Projects = ({openModal,setOpenModal}) => {
     const [toggle, setToggle] = useState('all');
-  return (
-    <Container id = 'projects'>
-        <Wrapper>
-            <Title>Projects</Title>
-            <Desc>Where my skills have come into play ...</Desc>
-            <ToggleButtonGroup >
-                {toggle === 'all' ?
-                    <ToggleButton active value = 'all' onClick={() => setToggle('all')}>All</ToggleButton>
+    return (
+        <Container id = 'projects'>
+            <Wrapper>
+                <Title>Projects</Title>
+                <Desc>
+                    Where my skills have been put to use ...
+                </Desc>
+                <ToggleButtonGroup >
+                    {toggle === 'all' ?
+                    <ToggleButton active value = 'all' onClick = {() => setToggle('all')}>ALL</ToggleButton>
                     :
-                    <ToggleButton value = 'all' onClick={() => setToggle('all')}>All</ToggleButton>
-                }
-                <Divider />
-                {toggle === 'web app' ?
-                    <ToggleButton active value = 'web app' onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
+                    <ToggleButton value = 'all' onClick = {() => setToggle('all')}>ALL</ToggleButton>
+                    }
+                    <Divider />
+                    {toggle === 'web app' ?
+                    <ToggleButton active value = 'web app' onClick = {() => setToggle('web app')}>WEB APPS</ToggleButton>
                     :
-                    <ToggleButton value = 'web app' onClick={() => setToggle('web app')}>WEB APPS</ToggleButton>
-                }
-                <Divider />
-                {toggle === 'android app' ?
-                    <ToggleButton active value = 'android app' onClick={() => setToggle('android app')}>ANDROID APPS</ToggleButton>
+                    <ToggleButton value = 'web app' onClick = {() => setToggle('web app')}>WEB APPS</ToggleButton>
+                    }
+                    <Divider />
+                    {toggle === 'android app' ?
+                    <ToggleButton active value = 'android app' onClick = {() => setToggle('android app')}>ANDROID APPS</ToggleButton>
                     :
-                    <ToggleButton value = 'android app' onClick={() => setToggle('android app')}>ANDROID APPS</ToggleButton>
-                }
-                <Divider />
-                {toggle === 'machine learning' ?
-                    <ToggleButton active value = 'machine learning' onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+                    <ToggleButton value = 'android app' onClick = {() => setToggle('android app')}>ANDROID APPS</ToggleButton>
+                    }
+                    <Divider />
+                    {toggle === 'machine learning' ?
+                    <ToggleButton active value = 'machine learning' onClick = {() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
                     :
-                    <ToggleButton value = 'machine learning' onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-                }
-            </ToggleButtonGroup>
-            <CardContainer>
-                {
-                    toggle === 'all' && 
-                    projects
-                        .map((project) => 
-                            (<ProjectCard project = {project} />)
-                        )
-                }   
-                {
-                    projects
-                        .filter((project) => project.category === toggle)
-                        .map((project) => 
-                            (<ProjectCard project = {project} />)
-                        ) 
-                }
-            </CardContainer>
-        </Wrapper>
-    </Container>
-  )
-}
+                    <ToggleButton value = 'machine learning' onClick = {() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+                    }
+                </ToggleButtonGroup>
+                <CardContainer>
+                    {toggle === 'all' && projects
+                      .map((project) => (
+                          <ProjectCard project = {project} openModal = {openModal} setOpenModal = {setOpenModal}/>
+                    ))}
+                    {projects
+                      .filter((item) => item.category === toggle)
+                      .map((project) => (
+                          <ProjectCard project = {project} openModal = {openModal} setOpenModal = {setOpenModal}/>
+                      ))}
+                </CardContainer>
+            </Wrapper>
+        </Container>
+    )
+  }
 
 export default Projects

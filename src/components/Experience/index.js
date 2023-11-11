@@ -7,7 +7,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import ExperienceCard from '../Card/ExperienceCard';
+import ExperienceCard from '../Cards/ExperienceCard';
 
 const Container = styled.div`
     display: flex;
@@ -16,7 +16,7 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
-    padding: 40px 0px 80px 0px;
+    padding: 80px 0px 80px 0px;
     @media only screen and (max-width: 960px) {
         padding: 0px;
     }
@@ -67,27 +67,29 @@ const TimeLineSection = styled.div`
 `;
 
 const Experience = () => {
-    return <Container id = 'experience'>
-        <Wrapper>
-            <Title>Experience</Title>
-            <Desc>My journey so far ...</Desc>
-            <TimeLineSection>
-                <Timeline>
-                    {experiences.map((experience, index) => (
-                        <TimelineItem>
-                            <TimelineSeparator>
-                                <TimelineDot variant='outlined' color='secondary' />
-                                {index !== experiences.length - 1 && <TimelineConnector />}
-                            </TimelineSeparator>
-                            <TimelineContent sx = {{py: '12px', px: 2}}>
-                                <ExperienceCard experience = {experience} />
-                            </TimelineContent>
-                        </TimelineItem>
-                    ))}
-                </Timeline>
-            </TimeLineSection>
-        </Wrapper>
-    </Container>;
+    return (
+        <Container id = 'experience'>
+            <Wrapper>
+                <Title>Experience</Title>
+                <Desc>My journey so far ...</Desc>
+                <TimeLineSection>
+                    <Timeline>
+                        {experiences.map((experience, index) => (
+                            <TimelineItem>
+                                <TimelineSeparator>
+                                    <TimelineDot variant='outlined' color='secondary' />
+                                    {index !== experiences.length - 1 && (<TimelineConnector />)}
+                                </TimelineSeparator>
+                                <TimelineContent sx = {{py: '12px', px: 2}}>
+                                    <ExperienceCard experience = {experience} />
+                                </TimelineContent>
+                            </TimelineItem>
+                        ))}
+                    </Timeline>
+                </TimeLineSection>
+            </Wrapper>
+        </Container>
+    );
 };
 
 export default Experience;

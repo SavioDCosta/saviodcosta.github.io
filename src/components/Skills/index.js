@@ -9,6 +9,7 @@ const Container = styled.div`
     position: relative;
     z-index: 1;
     align-items: center;
+    padding: 80px 0px 80px 0px;
 `;
 
 const Wrapper = styled.div`
@@ -113,32 +114,34 @@ const SkillImage = styled.img`
 `;
 
 const Skills = () => {
-    return <Container id = 'skills'>
-        <Wrapper>
-            <Title>Skills</Title>
-            <Desc>
-                {/* Here are some of my skills on which I have been working on for the past 2 years. */}
-                Some of the things I've picked up along the way ...
-            </Desc>
-            <SkillsContainer>
-                {skills.map((item) => (
-                    <Skill>
-                        <SkillTitle>{item.title}</SkillTitle>
-                        <SkillList>
-                            {
-                                item.skills.map((skill, index) => (
-                                    <SkillItem>
-                                        <SkillImage src = {skill.image} />
-                                        {skill.name}
-                                    </SkillItem>
-                                ))
-                            }
-                        </SkillList>
-                    </Skill>
-                ))}
-            </SkillsContainer>
-        </Wrapper>
-    </Container>;
+    return (
+        <Container id = 'skills'>
+            <Wrapper>
+                <Title>Skills</Title>
+                <Desc>
+                    {/* Here are some of my skills on which I have been working on for the past 2 years. */}
+                    Some of the things I've picked up along the way ...
+                </Desc>
+                <SkillsContainer>
+                    {skills.map((item) => (
+                        <Skill>
+                            <SkillTitle>{item.title}</SkillTitle>
+                            <SkillList>
+                                {
+                                    item.skills.map((skill, index) => (
+                                        <SkillItem>
+                                            <SkillImage src = {skill.image} />
+                                            {skill.name}
+                                        </SkillItem>
+                                    ))
+                                }
+                            </SkillList>
+                        </Skill>
+                    ))}
+                </SkillsContainer>
+            </Wrapper>
+        </Container>
+    );
 };
 
 export default Skills;

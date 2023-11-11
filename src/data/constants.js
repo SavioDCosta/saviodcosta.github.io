@@ -258,16 +258,16 @@ export const skills = [
   export const education = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+      img: "https://media.licdn.com/dms/image/D560BAQEj5LNw0sMk_Q/company-logo_100_100/0/1698040165270/santa_clara_university_logo?e=1707955200&v=beta&t=oksJE3CPAOxnFZpqRWT84UBPhFGqndZxEzZcYmQ-SIU",
       school: "Santa Clara University",
       date: "Sept 2021 - June 2023",
-      grade: "3.21 GPA",
+      grade: "3.21 CGPA",
       desc: "Recently graduated with a MS in CS degree from Santa Clara University",
       degree: "Master of Science - Computer Science and Engineering",
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      img: "https://media.licdn.com/dms/image/C4E0BAQGsu_DimiqUow/company-logo_100_100/0/1631357817785?e=1707955200&v=beta&t=xGYw-6q7pX-hZPhLnvJSfHRhs61-qXXgcLtLA-6H0GQ",
       school: "University of Mumbai",
       date: "Aug 2016 - Apr 2020",
       grade: "2.8 CGPA",
