@@ -129,7 +129,7 @@ const EducationCard = ({ education }) => {
             <Span>{education.desc}</Span>
         </Description>
     </Card>
-  )
-}
+  );
+};
 
-export default EducationCard
+export default EducationCard;

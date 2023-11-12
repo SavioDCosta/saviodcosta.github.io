@@ -13,9 +13,6 @@
     "resume":
       "https://drive.google.com/file/d/1ZkrKuUgoRYYi66F5hkjaYaHrW-om0kYV/view?usp=sharing",
     "linkedin": "https://www.linkedin.com/in/saviodcosta/",
-    "twitter": "https://twitter.com/RishavChanda",
-    "insta": "https://www.instagram.com/rishav_chanda/",
-    "facebook": "https://www.facebook.com/rishav.chanda.165/",
   };
 
 export const skills = [

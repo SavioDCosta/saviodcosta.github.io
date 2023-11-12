@@ -145,7 +145,7 @@ const ExperienceCard = ({ experience }) => {
         </>}
         </Description>
     </Card>
-  )
-}
+  );
+};
 
-export default ExperienceCard
+export default ExperienceCard;

@@ -130,7 +130,7 @@ const ProjectCard = ({project, setOpenModal}) => {
             ))}
         </Members> */}
     </Card>
-  )
-}
+  );
+};
 
-export default ProjectCard
+export default ProjectCard;
