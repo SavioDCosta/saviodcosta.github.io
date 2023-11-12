@@ -13,8 +13,8 @@ coverage
 *.lcov
 
 # production
-/build
-build/Release
+# /build
+# build/Release
 
 # nyc test coverage
 .nyc_output
