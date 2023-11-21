@@ -1,9 +1,12 @@
 import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from './utils/themes.js'
+import {
+    useState,
+    // useEffect,
+} from "react";
+import { darkTheme, lightTheme } from "./utils/themes.js";
 import Navbar from "./components/Navbar";
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import "./App.css";
+import { BrowserRouter as Router } from "react-router-dom";
 import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -23,48 +26,60 @@ const Body = styled.div`
 
 const Wrapper = styled.div`
     background: linear-gradient(
-        38.73deg, 
-        rgba(204, 0, 187, 0.15) 0%, 
-        rgba(201, 32, 184, 0) 50%
-    ), 
-    linear-gradient(
-        141.27deg, 
-        rgba(0, 70, 209, 0) 50%, 
-        rgba(0, 70, 209, 0.15) 100%
-    );
+            38.73deg,
+            rgba(204, 0, 187, 0.15) 0%,
+            rgba(201, 32, 184, 0) 50%
+        ),
+        linear-gradient(
+            141.27deg,
+            rgba(0, 70, 209, 0) 50%,
+            rgba(0, 70, 209, 0.15) 100%
+        );
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
 function App() {
-    const [darkMode, setDarkMode] = useState(true);
+    const [
+        darkMode,
+        // setDarkMode
+    ] = useState(true);
     const [openModal, setOpenModal] = useState({ state: false, project: null });
     return (
-        <ThemeProvider theme = {darkMode ? darkTheme : lightTheme}>
+        <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
             <Helmet>
-                <meta charSet = "utf-8" />
+                <meta charSet="utf-8" />
                 <title>Savio DCosta</title>
-                <meta name = "description" content = "My Responsive Portfolio made with ReactJS" />
-                <link rel = "canonical" href = "https://saviodcosta.github.io" />
+                <meta
+                    name="description"
+                    content="My Responsive Portfolio made with ReactJS"
+                />
+                <link rel="canonical" href="https://saviodcosta.github.io" />
             </Helmet>
-            <Router >
-              <Navbar />
-              <Body>
-                  <HeroSection />
-                  <Wrapper>
-                      <Skills />
-                      <Experience />
-                  </Wrapper>
-                  <Projects openModal = {openModal} setOpenModal = {setOpenModal} />
-                  <Wrapper>
-                      <Education />
-                      <Contact />
-                  </Wrapper>
-                  <Footer />
-                  {openModal.state &&
-                      <ProjectDetails openModal = {openModal} setOpenModal = {setOpenModal} />
-                  }
-              </Body>
+            <Router>
+                <Navbar />
+                <Body>
+                    <HeroSection />
+                    <Wrapper>
+                        <Skills />
+                        <Experience />
+                    </Wrapper>
+                    <Projects
+                        openModal={openModal}
+                        setOpenModal={setOpenModal}
+                    />
+                    <Wrapper>
+                        <Education />
+                        <Contact />
+                    </Wrapper>
+                    <Footer />
+                    {openModal.state && (
+                        <ProjectDetails
+                            openModal={openModal}
+                            setOpenModal={setOpenModal}
+                        />
+                    )}
+                </Body>
             </Router>
         </ThemeProvider>
     );

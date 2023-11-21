@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
-import ProjectCard from '../Cards/ProjectCard';
-import { projects } from '../../data/constants';
-import { Container, Wrapper, Title, Description, CardContainer } from './ProjectsStyle';
+import React from // , { useState }
+"react";
+import ProjectCard from "../Cards/ProjectCard";
+import { projects } from "../../data/constants";
+import {
+    Container,
+    Wrapper,
+    Title,
+    Description,
+    CardContainer,
+} from "./ProjectsStyle";
 
-const Projects = ({openModal,setOpenModal}) => {
+const Projects = ({ openModal, setOpenModal }) => {
     // const [toggle, setToggle] = useState('all');
     return (
-        <Container id = 'projects'>
+        <Container id="projects">
             <Wrapper>
                 <Title>Projects</Title>
                 <Description>
@@ -38,11 +45,13 @@ const Projects = ({openModal,setOpenModal}) => {
                     }
                 </ToggleButtonGroup> */}
                 <CardContainer>
-                    {
-                        projects.map((project) => (
-                            <ProjectCard project = {project} openModal = {openModal} setOpenModal = {setOpenModal}/>
-                        ))
-                    }
+                    {projects.map((project) => (
+                        <ProjectCard
+                            project={project}
+                            openModal={openModal}
+                            setOpenModal={setOpenModal}
+                        />
+                    ))}
                     {/* {toggle === 'all' && projects
                       .map((project) => (
                           <ProjectCard project = {project} openModal = {openModal} setOpenModal = {setOpenModal}/>
@@ -55,7 +64,7 @@ const Projects = ({openModal,setOpenModal}) => {
                 </CardContainer>
             </Wrapper>
         </Container>
-    )
-  }
+    );
+};
 
-export default Projects
+export default Projects;

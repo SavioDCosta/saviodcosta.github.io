@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Card = styled.div`
-    width: 330px;;
+    width: 330px;
     height: 310px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
@@ -21,13 +21,13 @@ const Card = styled.div`
     }
 `;
 
-const Image = styled.img`
-    width: 100%;
-    height: 180px;
-    background-color: ${({ theme }) => theme.white};
-    border-radius: 10px;    
-    box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
-`;
+// const Image = styled.img`
+//     width: 100%;
+//     height: 180px;
+//     background-color: ${({ theme }) => theme.white};
+//     border-radius: 10px;
+//     box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+// `;
 
 const Tags = styled.div`
     width: 100%;
@@ -46,11 +46,11 @@ const Details = styled.div`
     padding: 0px 2px;
 `;
 
-const Members = styled.div`
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-`;
+// const Members = styled.div`
+//     display: flex;
+//     align-items: center;
+//     padding-left: 10px;
+// `;
 
 const Tag = styled.span`
     font-size: 12px;
@@ -85,7 +85,7 @@ const Date = styled.div`
 
 const Description = styled.div`
     font-weight: 400;
-    color: ${({ theme}) => theme.text_secondary};
+    color: ${({ theme }) => theme.text_secondary};
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
@@ -100,37 +100,37 @@ const Description = styled.div`
     }
 `;
 
-const Avatar = styled.img`
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    margin-left: -10px;
-    background-color: ${({ theme }) => theme.white};
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: 3px solid ${({ theme }) => theme.card};
-`;
+// const Avatar = styled.img`
+//     width: 38px;
+//     height: 38px;
+//     border-radius: 50%;
+//     margin-left: -10px;
+//     background-color: ${({ theme }) => theme.white};
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+//     border: 3px solid ${({ theme }) => theme.card};
+// `;
 
-const ProjectCard = ({project, setOpenModal}) => {
-  return (
-    <Card onClick = {() => setOpenModal({state: true, project: project})}>
-        {/* <Image src = {project.image}></Image> */}
-        <Tags>
-            {project.tags.map((tag) => (
-                <Tag key = {tag}>{tag}</Tag>
-            ))}
-        </Tags>
-        <Details>
-            <Title>{project.title}</Title>
-            <Date>{project.date}</Date>
-            <Description>{project.description}</Description>
-        </Details>
-        {/* <Members>
+const ProjectCard = ({ project, setOpenModal }) => {
+    return (
+        <Card onClick={() => setOpenModal({ state: true, project: project })}>
+            {/* <Image src = {project.image}></Image> */}
+            <Tags>
+                {project.tags.map((tag) => (
+                    <Tag key={tag}>{tag}</Tag>
+                ))}
+            </Tags>
+            <Details>
+                <Title>{project.title}</Title>
+                <Date>{project.date}</Date>
+                <Description>{project.description}</Description>
+            </Details>
+            {/* <Members>
             {project?.member?.map((member) => (
                 <Avatar src = {member.img}></Avatar>
             ))}
         </Members> */}
-    </Card>
-  );
+        </Card>
+    );
 };
 
 export default ProjectCard;

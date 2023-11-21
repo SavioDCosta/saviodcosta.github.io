@@ -1,23 +1,41 @@
-import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
-import { Modal } from '@mui/material';
-import React from 'react'
-import { Container, Wrapper, Title, Date, Tags, Tag, Description } from './ProjectDetailsStyle';
-
+import {
+    CloseRounded,
+    // GitHub,
+    // LinkedIn,
+} from "@mui/icons-material";
+import { Modal } from "@mui/material";
+import React from "react";
+import {
+    Container,
+    Wrapper,
+    Title,
+    Date,
+    Tags,
+    Tag,
+    Description,
+    ButtonGroup,
+    Button,
+} from "./ProjectDetailsStyle";
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     return (
-        <Modal open = {true} onClose = {() => setOpenModal({ state: false, project: null })}>
+        <Modal
+            open={true}
+            onClose={() => setOpenModal({ state: false, project: null })}
+        >
             <Container>
                 <Wrapper>
                     <CloseRounded
-                        style = {{
-                            position: 'absolute',
-                            top: '10px',
-                            right: '20px',
-                            cursor: 'pointer',
+                        style={{
+                            position: "absolute",
+                            top: "10px",
+                            right: "20px",
+                            cursor: "pointer",
                         }}
-                        onClick = {() => setOpenModal({ state: false, project: null })}
+                        onClick={() =>
+                            setOpenModal({ state: false, project: null })
+                        }
                     />
                     {/* <Image src = {project?.image} /> */}
                     <Title>{project?.title}</Title>
@@ -27,7 +45,9 @@ const index = ({ openModal, setOpenModal }) => {
                             <Tag>{tag}</Tag>
                         ))}
                     </Tags>
-                    <Description><pre>{project?.description}</pre></Description>
+                    <Description>
+                        <pre>{project?.description}</pre>
+                    </Description>
                     {/* {project.member && (
                         <>
                             <Label>Members</Label>
@@ -47,10 +67,11 @@ const index = ({ openModal, setOpenModal }) => {
                             </Members>
                         </>
                     )} */}
-                    {/* <ButtonGroup>
-                        <Button dull href = {project?.github} target = 'new'>View Code</Button>
-                        <Button href = {project?.webapp} target = 'new'>View Live App</Button>
-                    </ButtonGroup> */}
+                    <ButtonGroup>
+                        <Button dull href={project?.github} target="new">
+                            View Code
+                        </Button>
+                    </ButtonGroup>
                 </Wrapper>
             </Container>
         </Modal>
