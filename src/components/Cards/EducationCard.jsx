@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const Card = styled.div`
     width: 650px;
@@ -22,7 +22,7 @@ const Card = styled.div`
         gap: 8px;
         width: 300px;
     }
-    border: 0.1px solid #306EE8;
+    border: 0.1px solid #306ee8;
     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `;
 
@@ -95,14 +95,14 @@ const Description = styled.div`
     }
 `;
 
-const Span = styled.span`
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    max-width: 100%;
-    text-overflow: ellipsis;
-`;
+// const Span = styled.span`
+//     overflow: hidden;
+//     display: -webkit-box;
+//     -webkit-line-clamp: 4;
+//     -webkit-box-orient: vertical;
+//     max-width: 100%;
+//     text-overflow: ellipsis;
+// `;
 
 const Grade = styled.div`
     font-size: 14px;
@@ -114,22 +114,22 @@ const Grade = styled.div`
 `;
 
 const EducationCard = ({ education }) => {
-  return (
-    <Card>
-        <Top>
-            <Logo src = {education.img}></Logo>
-            <Body>
-                <Name>{education.school}</Name>
-                <Degree>{education.degree}</Degree>
-                <Date>{education.date}</Date>
-            </Body>
-        </Top>
-        <Grade>Grade: {education.grade}</Grade>
-        <Description><pre>{education.desc}</pre>
-            <Span>{education.desc}</Span>
-        </Description>
-    </Card>
-  );
+    return (
+        <Card>
+            <Top>
+                <Logo src={education.img}></Logo>
+                <Body>
+                    <Name>{education.school}</Name>
+                    <Degree>{education.degree}</Degree>
+                    <Date>{education.date}</Date>
+                </Body>
+            </Top>
+            <Grade>Grade: {education.grade}</Grade>
+            <Description>
+                <pre>{education.desc}</pre>
+            </Description>
+        </Card>
+    );
 };
 
 export default EducationCard;

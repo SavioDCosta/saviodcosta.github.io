@@ -261,7 +261,7 @@ export const education = [
         school: "Santa Clara University",
         date: "Sept 2021 - June 2023",
         grade: "3.21 CGPA",
-        desc: "Recently graduated with a MS in CS degree from Santa Clara University",
+        desc: "Recently graduated with a MS in CS degree from Santa Clara University.\n\nCourses: \n- Design & Analysis of Algorithms\n- Database Systems\n- Web Architecture and Protocols\n- Advanced Operating Systems\n- Computer Architecture\n- Object-Oriented Analysis, Design, and Programming (C++)\n- Distributed Systems\n- Software Engineering\n- Wireless and Mobile Networks\n- Gender and Engineering\n- AI and Ethics\n- Project Management Basics",
         degree: "Master of Science - Computer Science and Engineering",
     },
     {
@@ -270,7 +270,7 @@ export const education = [
         school: "University of Mumbai",
         date: "Aug 2016 - Apr 2020",
         grade: "2.8 CGPA",
-        desc: "Graduated with a BE in CS degree from the University of Mumbai",
+        desc: "Graduated with a BE in CS degree from the University of Mumbai. \n\nCourses: - Applied Mathematics I-IV\n- Structured Programming (C Programming)\n- Object-Oriented Programming (Java)\n- Open Source Technologies (Python, R)\n- Data Structures\n- Advanced Algorithms\n- Database Management Systems\n- Machine Learning\n- Data Mining & Warehousing\n- Digital Signal & Image Processing\n- Artificial Intelligence & Soft Computing\n- Big Data Analytics\n- Operating Systems\n- Natural Language Processing\n- Cloud Computing\n- Business Communication and Ethics\n- Finance Management",
         degree: "Bachelor of Engineering - Computer Science",
     },
 ];
