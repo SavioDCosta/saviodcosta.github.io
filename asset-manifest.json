@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.acbe4e0d.css",
-    "main.js": "/static/js/main.433daf02.js",
+    "main.js": "/static/js/main.c5b12509.js",
     "static/media/HeroImage.jpg": "/static/media/HeroImage.d42d8fda1d075e73303e.jpg",
     "static/media/Savio_DCosta_Resume.pdf": "/static/media/Savio_DCosta_Resume.b764f7019fcf634432d5.pdf",
     "index.html": "/index.html",
     "main.acbe4e0d.css.map": "/static/css/main.acbe4e0d.css.map",
-    "main.433daf02.js.map": "/static/js/main.433daf02.js.map"
+    "main.c5b12509.js.map": "/static/js/main.c5b12509.js.map"
   },
   "entrypoints": [
     "static/css/main.acbe4e0d.css",
-    "static/js/main.433daf02.js"
+    "static/js/main.c5b12509.js"
   ]
 }
