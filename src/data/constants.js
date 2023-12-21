@@ -8,7 +8,7 @@ export const bio = {
     "Frontend Engineer",
   ],
   description:
-    "I have 2+ years experience writing high-quality code. I have extensive experience in developing robust, reliable, and scalable web and mobile applications.",
+    "I have 3+ years experience writing high-quality code. I have extensive experience in developing robust, reliable, and scalable web and mobile applications.",
   github: "https://github.com/saviodcosta",
   resume: "../../assets/Savio_DCosta_Resume.pdf", // path not working. imported resume directly into HeroSection
   linkedin: "https://www.linkedin.com/in/saviodcosta/",
