@@ -216,7 +216,7 @@ export const experiences = [
     img: "https://media.licdn.com/dms/image/C560BAQGDxB72ieAc7A/company-logo_200_200/0/1630623521087/frugal_innovation_hub_logo?e=1707955200&v=beta&t=aY380dh_YnFMfKlxe5dmzYOddyBS5xElzqQoO-FkUNg",
     role: "Software Engineer",
     company: "SCU Frugal Innovation Hub",
-    date: "Sept 2023 - Present",
+    date: "Jan 2023 - Present",
     desc: "\n• Leading a team to develop a cross-platform disabled-friendly resource app using Flutter along with Firebase Firestore, Storage, and Authentication as well as Google Cloud Platform for an NGO that works with people with disabilities. \n• Implementing CRUD API endpoints for users to view resources as well as for employers to add and edit resources that trigger specific Google Cloud Functions for data validation and authentication.",
     skills: ["Flutter", "Dart", "Firebase", "GCP", "Git", "Github", "Figma"],
   },
