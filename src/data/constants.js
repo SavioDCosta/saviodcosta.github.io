@@ -8,9 +8,9 @@ export const bio = {
     "Frontend Engineer",
   ],
   description:
-    "I have 4+ years experience writing high-quality code. I have extensive experience in developing robust, reliable, and scalable web and mobile applications.",
+    "I have 3+ years experience writing high-quality code. I have extensive experience in developing robust, reliable, and scalable web and mobile applications.",
   github: "https://github.com/saviodcosta",
-  resume: "../../assets/Savio_DCosta_Resume.pdf", // path not working. imported resume directly into HeroSection
+  resume: "../../assets/Savio DCosta Resume SD.pdf", // path not working. imported resume directly into HeroSection
   linkedin: "https://www.linkedin.com/in/saviodcosta/",
 };
 
@@ -105,11 +105,11 @@ export const skills = [
         name: "Angular.js",
         image: "https://angular.io/assets/images/logos/angular/angular.svg",
       },
-      {
-        name: "Hibernate ORM",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM5NyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTE1My42NzEgMTc4LjkzM2wtLjkzMiAyLjc1NyA0OS4xMzcgODMuMzQyIDIuNzgxIDEuOTY4TDI1NiAxNzguMjJsLTUxLjM0Mi04OS4xMzctNTAuOTg2IDg5Ljg1ek01MC4yNzMuMzA0TDAgODkuMDg0bDUyLjIzNCA4OS44NDkgNDkuNzM4LTg5Ljg1LS4xMzQtMy42M0w1Mi41NjUgMi4xMSA1MC4yNzMuMzA0eiIgZmlsbD0iIzU5NjY2QyIvPjxwYXRoIGQ9Ik01MC4yNzMuMzA0bDUxLjcgODguNzhoMTAyLjY4NEwxNTIuNjAxLjMwNEg1MC4yNzN6TTUyLjIzNCAxNzguOTMzTDEwMi44NjQgMjY3aDEwMS43OTNsLTUwLjk4Ni04OC4wNjdINTIuMjM0eiIgZmlsbD0iI0JDQUU3OSIvPjwvc3ZnPg==",
-      },
+      // {
+      //   name: "Hibernate ORM",
+      //   image:
+      //     "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM5NyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTE1My42NzEgMTc4LjkzM2wtLjkzMiAyLjc1NyA0OS4xMzcgODMuMzQyIDIuNzgxIDEuOTY4TDI1NiAxNzguMjJsLTUxLjM0Mi04OS4xMzctNTAuOTg2IDg5Ljg1ek01MC4yNzMuMzA0TDAgODkuMDg0bDUyLjIzNCA4OS44NDkgNDkuNzM4LTg5Ljg1LS4xMzQtMy42M0w1Mi41NjUgMi4xMSA1MC4yNzMuMzA0eiIgZmlsbD0iIzU5NjY2QyIvPjxwYXRoIGQ9Ik01MC4yNzMuMzA0bDUxLjcgODguNzhoMTAyLjY4NEwxNTIuNjAxLjMwNEg1MC4yNzN6TTUyLjIzNCAxNzguOTMzTDEwMi44NjQgMjY3aDEwMS43OTNsLTUwLjk4Ni04OC4wNjdINTIuMjM0eiIgZmlsbD0iI0JDQUU3OSIvPjwvc3ZnPg==",
+      // },
     ],
   },
   {
@@ -171,44 +171,44 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Testing Tools",
-    skills: [
-      {
-        name: "Jenkins",
-        image: "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
-      },
-      {
-        name: "Jest",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjOTk0MjVCIiBkPSJNMTI0LjEyOSA2My4wMmMwLTcuNjkyLTUuODI4LTE0LjE2NS0xMy42NTItMTYuMDEyTDEyOCAuMTEzSDQxLjE2bDE3LjU2MyA0Ny4wNDNjLTcuNTc4IDEuOTk2LTEzLjE2NCA4LjM1Ni0xMy4xNjQgMTUuOTAzIDAgNS41NDYgMy4wNTggMTAuNDY0IDcuNzAzIDEzLjQ5Ni0xLjgzMiAyLjM2Ny0zLjk1MyA0LjU1LTYuMzU2IDYuNjItNC41MjMgMy44NDgtOS41MzkgNi44MDUtMTQuOTU3IDguNzY2LTQuODktMi45OTYtNy4wMDgtOC4yODUtNS4wOTQtMTMuMDIgNy40NTctMi4wNyAxMi44OC04LjM5NCAxMi44OC0xNS44MjcgMC05LjEzMy04LjE5Mi0xNi41MzItMTguMjItMTYuNTMyLTEwLjA2NiAwLTE4LjI1MyA3LjQzNC0xOC4yNTMgMTYuNTcgMCA0LjUxMyAyLjAzNSA4LjY1MyA1LjI5NyAxMS42MS0uMjg2LjUyLS41NyAxLjAzNS0uODU2IDEuNTlDNC45NzMgODEuNDM4IDEuODc1IDg3LjIwNy42OTEgOTMuNjhjLTIuMzYzIDEyLjk0MSAxLjUwOCAyMy4zMzYgMTAuODQgMjkuMjE1IDUuMjU4IDMuMjkzIDExLjA0NyA0Ljk1NyAxNy4yODIgNC45NTcgMTAuNzE0IDAgMjEuNTk3LTQuODgzIDMyLjEwOS05LjYxOCA3LjUtMy4zNjMgMTUuMjQyLTYuODc5IDIyLjg2My04LjU3OCAyLjgxMy0uNjI5IDUuNzQ2LTEgOC44NDQtMS40MDYgNi4yNzMtLjgxMyAxMi43NTQtMS42NjQgMTguNTgyLTQuNzM0IDYuODA1LTMuNTg2IDExLjQ1LTkuNTc5IDEyLjc5Ny0xNi40NTcgMS4wMTUtNS4yOSAwLTEwLjYxNC0yLjYxLTE1LjI3NGExNS4zNSAxNS4zNSAwIDAwMi43My04Ljc2NXptLTcuOTQ1IDBjMCA1LjE0LTQuNjA2IDkuMzItMTAuMjcgOS4zMnMtMTAuMjctNC4xOC0xMC4yNy05LjMyYzAtMS42NjUuNDg5LTMuMjU0IDEuMzQ0LTQuNjIyLjMyNS0uNTIuNzM1LTEuMDM1IDEuMTQtMS40OGE4LjUxNyA4LjUxNyAwIDAxMS40MjctMS4yMTlsLjA0My0uMDM5Yy4zMjQtLjIyMi42OTEtLjQ0NSAxLjA1OC0uNjY0IDAgMCAuMDQgMCAuMDQtLjAzOS4xNjMtLjA3NC4zMjctLjE4NC40OTItLjI1OC4wMzkgMCAuMDc4LS4wMzkuMTItLjAzOS4xNjUtLjA3LjM2OC0uMTQ0LjU3LS4yMTlhOC43OCA4Ljc4IDAgMDAuNTcxLS4yMjJjLjA0IDAgLjA4Mi0uMDQuMTIxLS4wNC4xNjQtLjAzNC4zMjgtLjEwOS40ODktLjE0NC4wNDMgMCAuMTI1LS4wMzkuMTY0LS4wMzkuMjAzLS4wMzUuMzY3LS4wNzQuNTctLjExaC4wNDNsLjYxLS4xMTNjLjA0MiAwIC4xMiAwIC4xNjMtLjAzNS4xNjQgMCAuMzI1LS4wMzkuNDg5LS4wMzloLjIwM2MuMjAzIDAgLjQxLS4wMzUuNjUyLS4wMzVoLjUzMWMuMTYgMCAuMjg2IDAgLjQ0Ni4wMzVoLjA4MmMuMzI4LjA0LjY1Mi4wNzQuOTguMTQ5IDQuNjQ1Ljg4NiA4LjE5MiA0LjY2IDguMTkyIDkuMTcyek01Mi41MjcgNy41MDhoNjQuMTAybC0xNC43MTEgMzkuMzg3Yy0uNjEuMTEzLTEuMjIzLjI5Ni0xLjgzMi40OGwtMTUuNDg0LTI4LjY2TDY5LjA3NCA0Ny4xOWMtLjYxMy0uMTgzLTEuMjY1LS4yOTYtMS45MTQtLjQwNnpNODEuNjY0IDU5LjhjLS43NzMtMy40NzctMi43My02LjU4Mi01LjUtOC44NzVsOC40MzgtMTUuNDU3IDguNTE1IDE1Ljc4OWMtMi41MjcgMi4yOTMtNC4zNiA1LjIxNS01LjA5NCA4LjU0M3pNNjEuMjUgNTMuOTZjLjIwMy0uMDQuMzY3LS4wNzQuNTctLjExM2guMTIxYy4xNjQtLjAzNS4zMjktLjAzNS40ODktLjA3NWguMTY0Yy4xNjQgMCAuMjg1LS4wMzUuNDQ5LS4wMzVoMS41OWMuMTYgMCAuMjg1LjAzNS40MDYuMDM1LjA4MiAwIC4xMjEgMCAuMjAzLjA0LjE2NC4wMzUuMjg1LjAzNS40NS4wNzQuMDM4IDAgLjA4MSAwIC4xNjMuMDM1LjIwNC4wMzkuNDA3LjA3NC41Ny4xMTNoLjA0Yy4xNjQuMDM1LjMyOC4wNy40ODguMTQ1LjA0MyAwIC4wODIuMDM5LjE2NC4wMzkuMTIxLjAzNS4yODUuMDc0LjQwNi4xNDguMDQzIDAgLjA4Mi4wMzUuMTI1LjAzNS4xNi4wNzUuMzI1LjExNC40ODkuMTg4aC4wMzljLjIwMy4wNy4zNjcuMTQ0LjUzMS4yNThoLjA0Yy4xNjMuMDc0LjMyNy4xODMuNDkxLjI1Ny4wNCAwIC4wNC4wNC4wNzguMDQuMTY0LjA3LjI4Ni4xODMuNDUuMjU3bC4wNDMuMDM1Yy40ODguMzMzLjkzNy43MDQgMS4zODIgMS4wNzVsLjA0My4wMzVjLjQwNy40MDYuODEzLjg1MSAxLjE0MSAxLjMzMiAxLjA1OSAxLjQ4IDEuNjcyIDMuMjE5IDEuNjcyIDUuMTA1IDAgNS4xNDEtNC42MDYgOS4zMTctMTAuMjcgOS4zMTdzLTEwLjI3LTQuMTc2LTEwLjI3LTkuMzE3Yy0uMDQyLTQuMzI4IDMuMjU5LTcuOTg4IDcuNzQzLTkuMDIzem0tNDAuMTAyLS4yNjJjNS42NjUgMCAxMC4yNyA0LjE4IDEwLjI3IDkuMzIgMCA1LjE0MS00LjYwNSA5LjMyLTEwLjI3IDkuMzItNS42NjQgMC0xMC4yNy00LjE3OS0xMC4yNy05LjMyIDAtNS4xNCA0LjYwNi05LjMyIDEwLjI3LTkuMzJ6bTk0Ljc5IDMyLjA2N2MtLjg5NSA0LjczLTQuMTE4IDguODc1LTguODQ0IDExLjM1MS00LjQ0MiAyLjMzMi05LjkwMyAzLjA3LTE1LjY0OSAzLjgwOS0zLjEzNi40MDYtNi40MzcuODUxLTkuNjE3IDEuNTU0LTguNDc2IDEuODg3LTE2LjYyNSA1LjU4Ni0yNC41MzEgOS4xMzMtMTAuMTA2IDQuNTUxLTE5LjY0NSA4Ljg0LTI4LjQ4NCA4Ljg0LTQuNjA2IDAtOC43MjMtMS4xODMtMTIuNjMzLTMuNjYtOC45NjUtNS42MjEtOC41Mi0xNi4xNi03LjQ1Ny0yMS45My45NzYtNS40MDIgMy43MDctMTAuNDY4IDYuMzE2LTE1LjMxMi4xNi0uMjk3LjI4NS0uNTU1LjQ0NS0uODUyLjg5OS4yOTcgMS44MzYuNTIgMi44MTMuNjY4LTEuNTQ3IDcuODQgMi44NTEgMTUuOTM4IDExLjQxIDE5LjkzNGwxLjU1LjczOCAxLjY2OS0uNTU1YzcuMTMzLTIuMjkzIDEzLjczNC02LjAyNyAxOS41NjItMTEuMDIgMy4zMDEtMi44MTIgNi4xMTQtNS44NDMgOC40NzctOS4xMzYuOTM3LjE0OSAxLjg3NS4xODggMi44MTIuMTg4IDguNDc3IDAgMTUuNjA2LTUuMjkgMTcuNjQ1LTEyLjM5MWg2Ljg0NGMyLjAzOSA3LjEzNyA5LjE3MSAxMi4zOSAxNy42NDggMTIuMzkgMy4zODMgMCA2LjUyLS44NSA5LjIwNy0yLjI5MiAxLjA2MyAyLjc3MyAxLjM4NyA1LjY1Ni44MTcgOC41NDN6bTAgMCIvPjwvc3ZnPg==",
-      },
-      {
-        name: "JUnit",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6I2RjNTE0YTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Ljk5Njg0IiBkPSJNNjQuMTY2IDIuMTkxYy0xNS4zMDMtLjI5Mi0yOS45IDMuNzQ2LTQyLjM5IDE1LjI5My0yNi4xMzcgMjQuMTc0LTI2LjkxNSA2NS41NjQtMS42NyA5MC42MyA0LjU0NCA0LjUxMiA5Ljk1MiA4LjY4NiAxNS44OSAxMS4yMjggMS41NTEtNS4yMTUgMS4yNDktMTEuNTExLjc1OC0xNy43LS4xMTgtLjEyMi0uMjQtLjI0My0uMzMtLjM3OC0xLjY1OS0yLjQ3My0uNDI4LTguOTI5LS40MjgtMTEuODY2IDEwLjQzNiAxLjg1IDE4LjkzNiA3LjU5IDMwLjEwOCA0LjI1NiAxMC45MzMtMy4yNjMgMTUuNDktMTkuMDMgNS44NTEtMjYuNDk0LTUuODIxLTQuNTEtMTQuNDU3LTMuODk1LTIxLjMyMi0zLjA2OC00LjEyMy40OTgtOS4yNzEgMi4wMi0xMi4xMTctMi4zNjUtMS42OC0yLjU4MS4wNTQtOC45MTYuMzM2LTExLjgzNi4wNy0uNzM2LjE0Ny0xLjQ4Ni4yMi0yLjIyNS43MzEtOS4wNjggMS45NDQtMTguMjM0IDEuOTQ0LTI3LjMwN0g4NS4zNFY0Ljk3NUM3OC4yMjQgMy4zNSA3MS4xMjIgMi4zMjUgNjQuMTY2IDIuMTl6Ii8+CiAgPHBhdGggc3R5bGU9ImRpc3BsYXk6aW5saW5lO2ZpbGw6IzIzYTE2MTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Ljk5ODQ4OCIgZD0iTTg0Ljk4MiA0Ljk0N3YyNy4wOEg1Mi43MjlsLTEuNjc2IDIwLjgyN2M3LjE1Ny0uNTYxIDEzLjc5Mi0xLjgyNCAyMC45NDQtLjE0MyA0LjkwMyAxLjE1NSA5LjUwNSAzLjQ3IDEyLjkxIDcuMjI3Qzk0LjQxIDcwLjQxIDkyLjU0IDkwLjA2OCA4MS42MyA5OC45Yy0zLjA3IDIuNDg2LTYuNTc4IDQuMTE5LTEwLjI4MiA1LjE2OS0zLjQyIDEuMDkzLTYuODU2IDEuNTU2LTEwLjMwNCAxLjU4OGE3MC45NCA3MC45NCAwIDAgMS0zLjcwOC4xMDRjLTUuMzcgMC0xMC43NDEtLjY5OC0xNS45MTctMi4xNDYtMS4zMTYtLjM2OS0zLjM1Mi0uODgyLTQuNjMyLTEuODQtLjI3MS0uMDU4LS41NDMtLjEyMS0uODE0LS4xOGwtLjQxNyAxNy40OTdjMzMuMjQgMTcuNjI2IDc1LjU4NS0xLjIzMyA4Ny41MDgtMzUuODI1IDEwLjA3OS0yOS4yMzMtNS41My03MC42NDctMzguMDgyLTc4LjMyWiIvPgo8L3N2Zz4K",
-      },
-      {
-        name: "CodeShip",
-        image:
-          "https://pbs.twimg.com/profile_images/1098631372653191168/YCkp3X1Y_400x400.png",
-      },
-      {
-        name: "Mockito",
-        image:
-          "https://static.javatpoint.com/tutorial/mockito/images/mockito.png",
-      },
-      {
-        name: "Sonarqube",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjIzNzQiIHZpZXdCb3g9Ii4xIC0uMSA5NjAuMSA5MTEuNCIgd2lkdGg9IjI1MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTgzMi42IDkxMS4zaC01Mi42YzAtNDI0LjEtMzQ5LjktNzY5LjEtNzc5LjktNzY5LjF2LTUyLjZjNDU5IDAgODMyLjUgMzY4LjUgODMyLjUgODIxLjd6bTM2LjQtMjgyLjljLTYzLjItMjY2LTI3OC43LTQ4OC01NDktNTY1LjdsMTIuMS00Mi4yYzI4NS4zIDgyIDUxMi44IDMxNi41IDU3OS41IDU5Ny44em01OS4zLTI0OS43Yy02NS4xLTE0Mi0xNzYuMi0yNjUuOS0zMTIuNS0zNDguOGwxOC4zLTMwYzE0Mi4zIDg2LjYgMjU4IDIxNS44IDMyNi4xIDM2NC4yeiIgZmlsbD0iIzQ5OWNkMiIvPjwvc3ZnPg",
-      },
-      {
-        name: "React Testing Library",
-        image: "https://testing-library.com/img/octopus-128x128.png",
-      },
-    ],
-  },
+  // {
+  //   title: "Testing Tools",
+  //   skills: [
+  //     {
+  //       name: "Jenkins",
+  //       image: "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
+  //     },
+  //     {
+  //       name: "Jest",
+  //       image:
+  //         "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjOTk0MjVCIiBkPSJNMTI0LjEyOSA2My4wMmMwLTcuNjkyLTUuODI4LTE0LjE2NS0xMy42NTItMTYuMDEyTDEyOCAuMTEzSDQxLjE2bDE3LjU2MyA0Ny4wNDNjLTcuNTc4IDEuOTk2LTEzLjE2NCA4LjM1Ni0xMy4xNjQgMTUuOTAzIDAgNS41NDYgMy4wNTggMTAuNDY0IDcuNzAzIDEzLjQ5Ni0xLjgzMiAyLjM2Ny0zLjk1MyA0LjU1LTYuMzU2IDYuNjItNC41MjMgMy44NDgtOS41MzkgNi44MDUtMTQuOTU3IDguNzY2LTQuODktMi45OTYtNy4wMDgtOC4yODUtNS4wOTQtMTMuMDIgNy40NTctMi4wNyAxMi44OC04LjM5NCAxMi44OC0xNS44MjcgMC05LjEzMy04LjE5Mi0xNi41MzItMTguMjItMTYuNTMyLTEwLjA2NiAwLTE4LjI1MyA3LjQzNC0xOC4yNTMgMTYuNTcgMCA0LjUxMyAyLjAzNSA4LjY1MyA1LjI5NyAxMS42MS0uMjg2LjUyLS41NyAxLjAzNS0uODU2IDEuNTlDNC45NzMgODEuNDM4IDEuODc1IDg3LjIwNy42OTEgOTMuNjhjLTIuMzYzIDEyLjk0MSAxLjUwOCAyMy4zMzYgMTAuODQgMjkuMjE1IDUuMjU4IDMuMjkzIDExLjA0NyA0Ljk1NyAxNy4yODIgNC45NTcgMTAuNzE0IDAgMjEuNTk3LTQuODgzIDMyLjEwOS05LjYxOCA3LjUtMy4zNjMgMTUuMjQyLTYuODc5IDIyLjg2My04LjU3OCAyLjgxMy0uNjI5IDUuNzQ2LTEgOC44NDQtMS40MDYgNi4yNzMtLjgxMyAxMi43NTQtMS42NjQgMTguNTgyLTQuNzM0IDYuODA1LTMuNTg2IDExLjQ1LTkuNTc5IDEyLjc5Ny0xNi40NTcgMS4wMTUtNS4yOSAwLTEwLjYxNC0yLjYxLTE1LjI3NGExNS4zNSAxNS4zNSAwIDAwMi43My04Ljc2NXptLTcuOTQ1IDBjMCA1LjE0LTQuNjA2IDkuMzItMTAuMjcgOS4zMnMtMTAuMjctNC4xOC0xMC4yNy05LjMyYzAtMS42NjUuNDg5LTMuMjU0IDEuMzQ0LTQuNjIyLjMyNS0uNTIuNzM1LTEuMDM1IDEuMTQtMS40OGE4LjUxNyA4LjUxNyAwIDAxMS40MjctMS4yMTlsLjA0My0uMDM5Yy4zMjQtLjIyMi42OTEtLjQ0NSAxLjA1OC0uNjY0IDAgMCAuMDQgMCAuMDQtLjAzOS4xNjMtLjA3NC4zMjctLjE4NC40OTItLjI1OC4wMzkgMCAuMDc4LS4wMzkuMTItLjAzOS4xNjUtLjA3LjM2OC0uMTQ0LjU3LS4yMTlhOC43OCA4Ljc4IDAgMDAuNTcxLS4yMjJjLjA0IDAgLjA4Mi0uMDQuMTIxLS4wNC4xNjQtLjAzNC4zMjgtLjEwOS40ODktLjE0NC4wNDMgMCAuMTI1LS4wMzkuMTY0LS4wMzkuMjAzLS4wMzUuMzY3LS4wNzQuNTctLjExaC4wNDNsLjYxLS4xMTNjLjA0MiAwIC4xMiAwIC4xNjMtLjAzNS4xNjQgMCAuMzI1LS4wMzkuNDg5LS4wMzloLjIwM2MuMjAzIDAgLjQxLS4wMzUuNjUyLS4wMzVoLjUzMWMuMTYgMCAuMjg2IDAgLjQ0Ni4wMzVoLjA4MmMuMzI4LjA0LjY1Mi4wNzQuOTguMTQ5IDQuNjQ1Ljg4NiA4LjE5MiA0LjY2IDguMTkyIDkuMTcyek01Mi41MjcgNy41MDhoNjQuMTAybC0xNC43MTEgMzkuMzg3Yy0uNjEuMTEzLTEuMjIzLjI5Ni0xLjgzMi40OGwtMTUuNDg0LTI4LjY2TDY5LjA3NCA0Ny4xOWMtLjYxMy0uMTgzLTEuMjY1LS4yOTYtMS45MTQtLjQwNnpNODEuNjY0IDU5LjhjLS43NzMtMy40NzctMi43My02LjU4Mi01LjUtOC44NzVsOC40MzgtMTUuNDU3IDguNTE1IDE1Ljc4OWMtMi41MjcgMi4yOTMtNC4zNiA1LjIxNS01LjA5NCA4LjU0M3pNNjEuMjUgNTMuOTZjLjIwMy0uMDQuMzY3LS4wNzQuNTctLjExM2guMTIxYy4xNjQtLjAzNS4zMjktLjAzNS40ODktLjA3NWguMTY0Yy4xNjQgMCAuMjg1LS4wMzUuNDQ5LS4wMzVoMS41OWMuMTYgMCAuMjg1LjAzNS40MDYuMDM1LjA4MiAwIC4xMjEgMCAuMjAzLjA0LjE2NC4wMzUuMjg1LjAzNS40NS4wNzQuMDM4IDAgLjA4MSAwIC4xNjMuMDM1LjIwNC4wMzkuNDA3LjA3NC41Ny4xMTNoLjA0Yy4xNjQuMDM1LjMyOC4wNy40ODguMTQ1LjA0MyAwIC4wODIuMDM5LjE2NC4wMzkuMTIxLjAzNS4yODUuMDc0LjQwNi4xNDguMDQzIDAgLjA4Mi4wMzUuMTI1LjAzNS4xNi4wNzUuMzI1LjExNC40ODkuMTg4aC4wMzljLjIwMy4wNy4zNjcuMTQ0LjUzMS4yNThoLjA0Yy4xNjMuMDc0LjMyNy4xODMuNDkxLjI1Ny4wNCAwIC4wNC4wNC4wNzguMDQuMTY0LjA3LjI4Ni4xODMuNDUuMjU3bC4wNDMuMDM1Yy40ODguMzMzLjkzNy43MDQgMS4zODIgMS4wNzVsLjA0My4wMzVjLjQwNy40MDYuODEzLjg1MSAxLjE0MSAxLjMzMiAxLjA1OSAxLjQ4IDEuNjcyIDMuMjE5IDEuNjcyIDUuMTA1IDAgNS4xNDEtNC42MDYgOS4zMTctMTAuMjcgOS4zMTdzLTEwLjI3LTQuMTc2LTEwLjI3LTkuMzE3Yy0uMDQyLTQuMzI4IDMuMjU5LTcuOTg4IDcuNzQzLTkuMDIzem0tNDAuMTAyLS4yNjJjNS42NjUgMCAxMC4yNyA0LjE4IDEwLjI3IDkuMzIgMCA1LjE0MS00LjYwNSA5LjMyLTEwLjI3IDkuMzItNS42NjQgMC0xMC4yNy00LjE3OS0xMC4yNy05LjMyIDAtNS4xNCA0LjYwNi05LjMyIDEwLjI3LTkuMzJ6bTk0Ljc5IDMyLjA2N2MtLjg5NSA0LjczLTQuMTE4IDguODc1LTguODQ0IDExLjM1MS00LjQ0MiAyLjMzMi05LjkwMyAzLjA3LTE1LjY0OSAzLjgwOS0zLjEzNi40MDYtNi40MzcuODUxLTkuNjE3IDEuNTU0LTguNDc2IDEuODg3LTE2LjYyNSA1LjU4Ni0yNC41MzEgOS4xMzMtMTAuMTA2IDQuNTUxLTE5LjY0NSA4Ljg0LTI4LjQ4NCA4Ljg0LTQuNjA2IDAtOC43MjMtMS4xODMtMTIuNjMzLTMuNjYtOC45NjUtNS42MjEtOC41Mi0xNi4xNi03LjQ1Ny0yMS45My45NzYtNS40MDIgMy43MDctMTAuNDY4IDYuMzE2LTE1LjMxMi4xNi0uMjk3LjI4NS0uNTU1LjQ0NS0uODUyLjg5OS4yOTcgMS44MzYuNTIgMi44MTMuNjY4LTEuNTQ3IDcuODQgMi44NTEgMTUuOTM4IDExLjQxIDE5LjkzNGwxLjU1LjczOCAxLjY2OS0uNTU1YzcuMTMzLTIuMjkzIDEzLjczNC02LjAyNyAxOS41NjItMTEuMDIgMy4zMDEtMi44MTIgNi4xMTQtNS44NDMgOC40NzctOS4xMzYuOTM3LjE0OSAxLjg3NS4xODggMi44MTIuMTg4IDguNDc3IDAgMTUuNjA2LTUuMjkgMTcuNjQ1LTEyLjM5MWg2Ljg0NGMyLjAzOSA3LjEzNyA5LjE3MSAxMi4zOSAxNy42NDggMTIuMzkgMy4zODMgMCA2LjUyLS44NSA5LjIwNy0yLjI5MiAxLjA2MyAyLjc3MyAxLjM4NyA1LjY1Ni44MTcgOC41NDN6bTAgMCIvPjwvc3ZnPg==",
+  //     },
+  //     {
+  //       name: "JUnit",
+  //       image:
+  //         "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6I2RjNTE0YTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Ljk5Njg0IiBkPSJNNjQuMTY2IDIuMTkxYy0xNS4zMDMtLjI5Mi0yOS45IDMuNzQ2LTQyLjM5IDE1LjI5My0yNi4xMzcgMjQuMTc0LTI2LjkxNSA2NS41NjQtMS42NyA5MC42MyA0LjU0NCA0LjUxMiA5Ljk1MiA4LjY4NiAxNS44OSAxMS4yMjggMS41NTEtNS4yMTUgMS4yNDktMTEuNTExLjc1OC0xNy43LS4xMTgtLjEyMi0uMjQtLjI0My0uMzMtLjM3OC0xLjY1OS0yLjQ3My0uNDI4LTguOTI5LS40MjgtMTEuODY2IDEwLjQzNiAxLjg1IDE4LjkzNiA3LjU5IDMwLjEwOCA0LjI1NiAxMC45MzMtMy4yNjMgMTUuNDktMTkuMDMgNS44NTEtMjYuNDk0LTUuODIxLTQuNTEtMTQuNDU3LTMuODk1LTIxLjMyMi0zLjA2OC00LjEyMy40OTgtOS4yNzEgMi4wMi0xMi4xMTctMi4zNjUtMS42OC0yLjU4MS4wNTQtOC45MTYuMzM2LTExLjgzNi4wNy0uNzM2LjE0Ny0xLjQ4Ni4yMi0yLjIyNS43MzEtOS4wNjggMS45NDQtMTguMjM0IDEuOTQ0LTI3LjMwN0g4NS4zNFY0Ljk3NUM3OC4yMjQgMy4zNSA3MS4xMjIgMi4zMjUgNjQuMTY2IDIuMTl6Ii8+CiAgPHBhdGggc3R5bGU9ImRpc3BsYXk6aW5saW5lO2ZpbGw6IzIzYTE2MTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Ljk5ODQ4OCIgZD0iTTg0Ljk4MiA0Ljk0N3YyNy4wOEg1Mi43MjlsLTEuNjc2IDIwLjgyN2M3LjE1Ny0uNTYxIDEzLjc5Mi0xLjgyNCAyMC45NDQtLjE0MyA0LjkwMyAxLjE1NSA5LjUwNSAzLjQ3IDEyLjkxIDcuMjI3Qzk0LjQxIDcwLjQxIDkyLjU0IDkwLjA2OCA4MS42MyA5OC45Yy0zLjA3IDIuNDg2LTYuNTc4IDQuMTE5LTEwLjI4MiA1LjE2OS0zLjQyIDEuMDkzLTYuODU2IDEuNTU2LTEwLjMwNCAxLjU4OGE3MC45NCA3MC45NCAwIDAgMS0zLjcwOC4xMDRjLTUuMzcgMC0xMC43NDEtLjY5OC0xNS45MTctMi4xNDYtMS4zMTYtLjM2OS0zLjM1Mi0uODgyLTQuNjMyLTEuODQtLjI3MS0uMDU4LS41NDMtLjEyMS0uODE0LS4xOGwtLjQxNyAxNy40OTdjMzMuMjQgMTcuNjI2IDc1LjU4NS0xLjIzMyA4Ny41MDgtMzUuODI1IDEwLjA3OS0yOS4yMzMtNS41My03MC42NDctMzguMDgyLTc4LjMyWiIvPgo8L3N2Zz4K",
+  //     },
+  //     {
+  //       name: "CodeShip",
+  //       image:
+  //         "https://pbs.twimg.com/profile_images/1098631372653191168/YCkp3X1Y_400x400.png",
+  //     },
+  //     {
+  //       name: "Mockito",
+  //       image:
+  //         "https://static.javatpoint.com/tutorial/mockito/images/mockito.png",
+  //     },
+  //     {
+  //       name: "Sonarqube",
+  //       image:
+  //         "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjIzNzQiIHZpZXdCb3g9Ii4xIC0uMSA5NjAuMSA5MTEuNCIgd2lkdGg9IjI1MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTgzMi42IDkxMS4zaC01Mi42YzAtNDI0LjEtMzQ5LjktNzY5LjEtNzc5LjktNzY5LjF2LTUyLjZjNDU5IDAgODMyLjUgMzY4LjUgODMyLjUgODIxLjd6bTM2LjQtMjgyLjljLTYzLjItMjY2LTI3OC43LTQ4OC01NDktNTY1LjdsMTIuMS00Mi4yYzI4NS4zIDgyIDUxMi44IDMxNi41IDU3OS41IDU5Ny44em01OS4zLTI0OS43Yy02NS4xLTE0Mi0xNzYuMi0yNjUuOS0zMTIuNS0zNDguOGwxOC4zLTMwYzE0Mi4zIDg2LjYgMjU4IDIxNS44IDMyNi4xIDM2NC4yeiIgZmlsbD0iIzQ5OWNkMiIvPjwvc3ZnPg",
+  //     },
+  //     {
+  //       name: "React Testing Library",
+  //       image: "https://testing-library.com/img/octopus-128x128.png",
+  //     },
+  //   ],
+  // },
   {
     title: "Other Tools",
     skills: [
@@ -258,70 +258,70 @@ export const skills = [
       },
     ],
   },
-  {
-    title: "Web Services",
-    skills: [
-      {
-        name: "RESTful",
-        image:
-          "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.png",
-      },
-      {
-        name: "SOAP",
-        image:
-          "https://www.shutterstock.com/shutterstock/photos/1759832333/display_1500/stock-vector-soap-simple-object-access-protocol-is-a-messaging-protocol-specification-for-exchanging-1759832333.jpg",
-      },
-    ],
-  },
-  {
-    title: "Methodologies",
-    skills: [
-      {
-        name: "Agile",
-        image:
-          "https://as2.ftcdn.net/v2/jpg/04/25/70/79/1000_F_425707972_CSvM6Zo9vPZZOKANAMSFF5Xxvm8FV8vX.jpg",
-      },
-      {
-        name: "Waterfall",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDEgMTAxIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6I2ZmZjtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjUwLjUiIGN5PSI1MC41IiByPSI1MCIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNDUiIHk9IjQxIiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNTAiIHk9IjQ1LjUiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDEwMSkgcm90YXRlKC05MCkiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjU0LjU4IiB5PSI1MCIgd2lkdGg9IjEiIGhlaWdodD0iMTAiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjQwLjQxIiB5PSIzNi41IiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuNTkgODIuNDEpIHJvdGF0ZSgtOTApIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI1OS4wOCIgeT0iNTQuODciIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4yOSAxMTkuNDUpIHJvdGF0ZSgtOTApIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzNS45MSIgeT0iMzIiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI2NC4wOCIgeT0iNTkuMzciIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzMS4zNiIgeT0iMjcuNSIgd2lkdGg9IjEiIGhlaWdodD0iMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjY0IDY0LjM3KSByb3RhdGUoLTkwKSIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNjguNTgiIHk9IjYzLjg3IiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4yMSAxMzcuOTUpIHJvdGF0ZSgtOTApIi8+PC9nPjwvZz48L3N2Zz4=",
-      },
-      {
-        name: "CI/CD",
-        image:
-          "https://www.synopsys.com/glossary/what-is-cicd/_jcr_content/root/synopsyscontainer/column_1946395452_co/colRight/image_copy.coreimg.svg/1663683682045/cicd.svg",
-      },
-    ],
-  },
-  {
-    title: "Methodologies",
-    skills: [
-      {
-        name: "Windows",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/768px-Windows_logo_-_2012.svg.png",
-      },
-      {
-        name: "Linux",
-        image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
-      },
-      {
-        name: "MacOS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MacOS_logo_%282017%29.svg/773px-MacOS_logo_%282017%29.svg.png",
-      },
-      {
-        name: "Android",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/654px-Android_robot.svg.png",
-      },
-      {
-        name: "iOS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IOS_logo.svg/768px-IOS_logo.svg.png",
-      },
-    ],
-  },
+  // {
+  //   title: "Web Services",
+  //   skills: [
+  //     {
+  //       name: "RESTful",
+  //       image:
+  //         "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.png",
+  //     },
+  //     {
+  //       name: "SOAP",
+  //       image:
+  //         "https://www.shutterstock.com/shutterstock/photos/1759832333/display_1500/stock-vector-soap-simple-object-access-protocol-is-a-messaging-protocol-specification-for-exchanging-1759832333.jpg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Methodologies",
+  //   skills: [
+  //     {
+  //       name: "Agile",
+  //       image:
+  //         "https://as2.ftcdn.net/v2/jpg/04/25/70/79/1000_F_425707972_CSvM6Zo9vPZZOKANAMSFF5Xxvm8FV8vX.jpg",
+  //     },
+  //     {
+  //       name: "Waterfall",
+  //       image:
+  //         "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDEgMTAxIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6I2ZmZjtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjUwLjUiIGN5PSI1MC41IiByPSI1MCIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNDUiIHk9IjQxIiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNTAiIHk9IjQ1LjUiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDEwMSkgcm90YXRlKC05MCkiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjU0LjU4IiB5PSI1MCIgd2lkdGg9IjEiIGhlaWdodD0iMTAiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjQwLjQxIiB5PSIzNi41IiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuNTkgODIuNDEpIHJvdGF0ZSgtOTApIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI1OS4wOCIgeT0iNTQuODciIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4yOSAxMTkuNDUpIHJvdGF0ZSgtOTApIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzNS45MSIgeT0iMzIiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI2NC4wOCIgeT0iNTkuMzciIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzMS4zNiIgeT0iMjcuNSIgd2lkdGg9IjEiIGhlaWdodD0iMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjY0IDY0LjM3KSByb3RhdGUoLTkwKSIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNjguNTgiIHk9IjYzLjg3IiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4yMSAxMzcuOTUpIHJvdGF0ZSgtOTApIi8+PC9nPjwvZz48L3N2Zz4=",
+  //     },
+  //     {
+  //       name: "CI/CD",
+  //       image:
+  //         "https://www.synopsys.com/glossary/what-is-cicd/_jcr_content/root/synopsyscontainer/column_1946395452_co/colRight/image_copy.coreimg.svg/1663683682045/cicd.svg",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Oprating Systems",
+  //   skills: [
+  //     {
+  //       name: "Windows",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/768px-Windows_logo_-_2012.svg.png",
+  //     },
+  //     {
+  //       name: "Linux",
+  //       image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
+  //     },
+  //     {
+  //       name: "MacOS",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MacOS_logo_%282017%29.svg/773px-MacOS_logo_%282017%29.svg.png",
+  //     },
+  //     {
+  //       name: "Android",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/654px-Android_robot.svg.png",
+  //     },
+  //     {
+  //       name: "iOS",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IOS_logo.svg/768px-IOS_logo.svg.png",
+  //     },
+  //   ],
+  // },
 ];
 
 export const experiences = [
@@ -331,7 +331,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "SCU Frugal Innovation Hub",
     date: "Jan 2023 - Present",
-    desc: "\n- Pioneered the creation of a cross-platform, accessibility-centric app for an NGO, aiding individuals with disabilities, leveraging Flutter and Firebase, resulting in a 25% increase in user accessibility. \n- Engineered and deployed robust CRUD API endpoints with Firestore and Google Cloud Functions, enhancing data validation and authentication, thus reducing security breaches by 30%. \n- Developed advanced filtering capabilities, enabling users to search based on resource categories and disability types, improving user experience by 40%. \n- Incorporated various map APIs by Google, significantly enhancing resource location discovery for users by providing geographic visualizations.",
+    desc: "\n- Spearheaded the development of a cross-platform, accessibility-focused resource application for an NGO aiding individuals with disabilities, utilizing Flutter and Firebase (Firestore, Storage, Authentication). \n- Engineered CRUD API endpoints, integrated with Firebase Database and Google Cloud Functions, to ensure robust data validation and secure authentication mechanisms. \n- Allowed users to filter content based on resource categories and specific disability types. Also implemented functionality for employers to add and edit resource information for users to view.\n- Incorporated Google Maps API, enabling users to visualize and locate resources geographically.",
     skills: ["Flutter", "Dart", "Firebase", "GCP", "Git", "Github", "Figma"],
   },
   {
@@ -340,7 +340,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Lightning Motorcycles",
     date: "June 2022 - Jan 2023",
-    desc: "\n- Directed the development of a cutting-edge, cross-platform mobile application and responsive web platform for motorcycle-user connectivity, employing React.js and React Native, increasing user engagement by 50%.\n- Crafted and implemented responsive, user-friendly interfaces for both administrators and end-users, utilizing React.js for the web and React Native for mobile platforms, enhancing user satisfaction by 40%.\n• Architected a secure and scalable backend using MongoDB, effectively managing data transactions and storage, increasing data processing speed by 30%.\n- Designed and integrated robust API endpoints with MongoDB, leveraging Firebase Authentication for secure authentication protocols, reducing unauthorized access by 45%, and enhancing system security.\n- Optimized the application's performance and user experience on both mobile and web platforms, ensuring seamless, real-time communication between motorcycles and users, which boosted user engagement rates.",
+    desc: "\n- Led the development of a cross-platform mobile app using Flutter, allowing seamless communication between motorcycles and users on iOS, Android, and web platforms. \n- Designed and implemented user-friendly portals for both administrators and users, utilizing Firebase Authentication, Firestore, and Google Cloud Functions for secure and efficient data management. \n- Created and maintained various CRUD API endpoints to trigger specific Google Cloud Functions for data validation and authentication.",
     skills: [
       "Firebase",
       "GCP",
@@ -362,8 +362,8 @@ export const experiences = [
     img: "data:image/jpg;base64,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",
     role: "Software Engineer",
     company: "Honeybee Tech Solutions",
-    date: "Mar 2019 - Aug 2021",
-    desc: "\n- Led the development of a sophisticated Grievance Handling and HR Management web application, utilizing Spring Boot for the backend to enhance system robustness and scalability.\n- Architected and implemented RESTful APIs with Spring Boot, streamlining backend processes and improving data exchange efficiency by 50%, thus enhancing application responsiveness and user interaction. \n- Employed JSP for frontend development, creating interactive web pages that improved user experience and facilitated smoother navigation through the application.\n- Optimized database interactions and API performance through database indexing, reducing server response times by over 40% and improving overall application efficiency.\n- Integrated Spring Security into the application, leveraging OAuth2 for secure authentication and authorization, which reduced unauthorized access by over 60% and enhanced data security.\n- Collaborated in a cross-functional team to identify and rectify bottlenecks in the application workflow, employing Spring Boot's advanced features to enhance system functionality and user satisfaction.",
+    date: "Aug 2020 - Aug 2021",
+    desc: "\n- Developed a web-based Grievance Handling and HR Management system using JSP, Bootstrap for the front end, and OracleDB on the backend. \nUtilized Java, jQuery, and AJAX to support dynamic web flows and improve user experience. \n - Optimized performance by creating indexes on API queries, resulting in a 60% reduction in load time. \n - Integrated SonarQube, to address code smells, resulting in better software production discipline and quality.",
     skills: [
       "Java",
       "Oracle Databases",
