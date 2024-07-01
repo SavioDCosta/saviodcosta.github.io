@@ -8,7 +8,7 @@ export const bio = {
     "Frontend Engineer",
   ],
   description:
-    "I have 3+ years experience writing high-quality code. I have extensive experience in developing robust, reliable, and scalable web and mobile applications.",
+    "I have 4+ years experience writing high-quality code. I have extensive experience in developing robust, reliable, and scalable web and mobile applications.",
   github: "https://github.com/saviodcosta",
   resume: "../../assets/Savio DCosta Resume SD.pdf", // path not working. imported resume directly into HeroSection
   linkedin: "https://www.linkedin.com/in/saviodcosta/",
@@ -105,11 +105,11 @@ export const skills = [
         name: "Angular.js",
         image: "https://angular.io/assets/images/logos/angular/angular.svg",
       },
-      // {
-      //   name: "Hibernate ORM",
-      //   image:
-      //     "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM5NyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTE1My42NzEgMTc4LjkzM2wtLjkzMiAyLjc1NyA0OS4xMzcgODMuMzQyIDIuNzgxIDEuOTY4TDI1NiAxNzguMjJsLTUxLjM0Mi04OS4xMzctNTAuOTg2IDg5Ljg1ek01MC4yNzMuMzA0TDAgODkuMDg0bDUyLjIzNCA4OS44NDkgNDkuNzM4LTg5Ljg1LS4xMzQtMy42M0w1Mi41NjUgMi4xMSA1MC4yNzMuMzA0eiIgZmlsbD0iIzU5NjY2QyIvPjxwYXRoIGQ9Ik01MC4yNzMuMzA0bDUxLjcgODguNzhoMTAyLjY4NEwxNTIuNjAxLjMwNEg1MC4yNzN6TTUyLjIzNCAxNzguOTMzTDEwMi44NjQgMjY3aDEwMS43OTNsLTUwLjk4Ni04OC4wNjdINTIuMjM0eiIgZmlsbD0iI0JDQUU3OSIvPjwvc3ZnPg==",
-      // },
+      {
+        name: "Hibernate ORM",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjM5NyIgaGVpZ2h0PSIyNTAwIiB2aWV3Qm94PSIwIDAgMjU2IDI2NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCI+PHBhdGggZD0iTTE1My42NzEgMTc4LjkzM2wtLjkzMiAyLjc1NyA0OS4xMzcgODMuMzQyIDIuNzgxIDEuOTY4TDI1NiAxNzguMjJsLTUxLjM0Mi04OS4xMzctNTAuOTg2IDg5Ljg1ek01MC4yNzMuMzA0TDAgODkuMDg0bDUyLjIzNCA4OS44NDkgNDkuNzM4LTg5Ljg1LS4xMzQtMy42M0w1Mi41NjUgMi4xMSA1MC4yNzMuMzA0eiIgZmlsbD0iIzU5NjY2QyIvPjxwYXRoIGQ9Ik01MC4yNzMuMzA0bDUxLjcgODguNzhoMTAyLjY4NEwxNTIuNjAxLjMwNEg1MC4yNzN6TTUyLjIzNCAxNzguOTMzTDEwMi44NjQgMjY3aDEwMS43OTNsLTUwLjk4Ni04OC4wNjdINTIuMjM0eiIgZmlsbD0iI0JDQUU3OSIvPjwvc3ZnPg==",
+      },
     ],
   },
   {
@@ -171,44 +171,44 @@ export const skills = [
       },
     ],
   },
-  // {
-  //   title: "Testing Tools",
-  //   skills: [
-  //     {
-  //       name: "Jenkins",
-  //       image: "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
-  //     },
-  //     {
-  //       name: "Jest",
-  //       image:
-  //         "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjOTk0MjVCIiBkPSJNMTI0LjEyOSA2My4wMmMwLTcuNjkyLTUuODI4LTE0LjE2NS0xMy42NTItMTYuMDEyTDEyOCAuMTEzSDQxLjE2bDE3LjU2MyA0Ny4wNDNjLTcuNTc4IDEuOTk2LTEzLjE2NCA4LjM1Ni0xMy4xNjQgMTUuOTAzIDAgNS41NDYgMy4wNTggMTAuNDY0IDcuNzAzIDEzLjQ5Ni0xLjgzMiAyLjM2Ny0zLjk1MyA0LjU1LTYuMzU2IDYuNjItNC41MjMgMy44NDgtOS41MzkgNi44MDUtMTQuOTU3IDguNzY2LTQuODktMi45OTYtNy4wMDgtOC4yODUtNS4wOTQtMTMuMDIgNy40NTctMi4wNyAxMi44OC04LjM5NCAxMi44OC0xNS44MjcgMC05LjEzMy04LjE5Mi0xNi41MzItMTguMjItMTYuNTMyLTEwLjA2NiAwLTE4LjI1MyA3LjQzNC0xOC4yNTMgMTYuNTcgMCA0LjUxMyAyLjAzNSA4LjY1MyA1LjI5NyAxMS42MS0uMjg2LjUyLS41NyAxLjAzNS0uODU2IDEuNTlDNC45NzMgODEuNDM4IDEuODc1IDg3LjIwNy42OTEgOTMuNjhjLTIuMzYzIDEyLjk0MSAxLjUwOCAyMy4zMzYgMTAuODQgMjkuMjE1IDUuMjU4IDMuMjkzIDExLjA0NyA0Ljk1NyAxNy4yODIgNC45NTcgMTAuNzE0IDAgMjEuNTk3LTQuODgzIDMyLjEwOS05LjYxOCA3LjUtMy4zNjMgMTUuMjQyLTYuODc5IDIyLjg2My04LjU3OCAyLjgxMy0uNjI5IDUuNzQ2LTEgOC44NDQtMS40MDYgNi4yNzMtLjgxMyAxMi43NTQtMS42NjQgMTguNTgyLTQuNzM0IDYuODA1LTMuNTg2IDExLjQ1LTkuNTc5IDEyLjc5Ny0xNi40NTcgMS4wMTUtNS4yOSAwLTEwLjYxNC0yLjYxLTE1LjI3NGExNS4zNSAxNS4zNSAwIDAwMi43My04Ljc2NXptLTcuOTQ1IDBjMCA1LjE0LTQuNjA2IDkuMzItMTAuMjcgOS4zMnMtMTAuMjctNC4xOC0xMC4yNy05LjMyYzAtMS42NjUuNDg5LTMuMjU0IDEuMzQ0LTQuNjIyLjMyNS0uNTIuNzM1LTEuMDM1IDEuMTQtMS40OGE4LjUxNyA4LjUxNyAwIDAxMS40MjctMS4yMTlsLjA0My0uMDM5Yy4zMjQtLjIyMi42OTEtLjQ0NSAxLjA1OC0uNjY0IDAgMCAuMDQgMCAuMDQtLjAzOS4xNjMtLjA3NC4zMjctLjE4NC40OTItLjI1OC4wMzkgMCAuMDc4LS4wMzkuMTItLjAzOS4xNjUtLjA3LjM2OC0uMTQ0LjU3LS4yMTlhOC43OCA4Ljc4IDAgMDAuNTcxLS4yMjJjLjA0IDAgLjA4Mi0uMDQuMTIxLS4wNC4xNjQtLjAzNC4zMjgtLjEwOS40ODktLjE0NC4wNDMgMCAuMTI1LS4wMzkuMTY0LS4wMzkuMjAzLS4wMzUuMzY3LS4wNzQuNTctLjExaC4wNDNsLjYxLS4xMTNjLjA0MiAwIC4xMiAwIC4xNjMtLjAzNS4xNjQgMCAuMzI1LS4wMzkuNDg5LS4wMzloLjIwM2MuMjAzIDAgLjQxLS4wMzUuNjUyLS4wMzVoLjUzMWMuMTYgMCAuMjg2IDAgLjQ0Ni4wMzVoLjA4MmMuMzI4LjA0LjY1Mi4wNzQuOTguMTQ5IDQuNjQ1Ljg4NiA4LjE5MiA0LjY2IDguMTkyIDkuMTcyek01Mi41MjcgNy41MDhoNjQuMTAybC0xNC43MTEgMzkuMzg3Yy0uNjEuMTEzLTEuMjIzLjI5Ni0xLjgzMi40OGwtMTUuNDg0LTI4LjY2TDY5LjA3NCA0Ny4xOWMtLjYxMy0uMTgzLTEuMjY1LS4yOTYtMS45MTQtLjQwNnpNODEuNjY0IDU5LjhjLS43NzMtMy40NzctMi43My02LjU4Mi01LjUtOC44NzVsOC40MzgtMTUuNDU3IDguNTE1IDE1Ljc4OWMtMi41MjcgMi4yOTMtNC4zNiA1LjIxNS01LjA5NCA4LjU0M3pNNjEuMjUgNTMuOTZjLjIwMy0uMDQuMzY3LS4wNzQuNTctLjExM2guMTIxYy4xNjQtLjAzNS4zMjktLjAzNS40ODktLjA3NWguMTY0Yy4xNjQgMCAuMjg1LS4wMzUuNDQ5LS4wMzVoMS41OWMuMTYgMCAuMjg1LjAzNS40MDYuMDM1LjA4MiAwIC4xMjEgMCAuMjAzLjA0LjE2NC4wMzUuMjg1LjAzNS40NS4wNzQuMDM4IDAgLjA4MSAwIC4xNjMuMDM1LjIwNC4wMzkuNDA3LjA3NC41Ny4xMTNoLjA0Yy4xNjQuMDM1LjMyOC4wNy40ODguMTQ1LjA0MyAwIC4wODIuMDM5LjE2NC4wMzkuMTIxLjAzNS4yODUuMDc0LjQwNi4xNDguMDQzIDAgLjA4Mi4wMzUuMTI1LjAzNS4xNi4wNzUuMzI1LjExNC40ODkuMTg4aC4wMzljLjIwMy4wNy4zNjcuMTQ0LjUzMS4yNThoLjA0Yy4xNjMuMDc0LjMyNy4xODMuNDkxLjI1Ny4wNCAwIC4wNC4wNC4wNzguMDQuMTY0LjA3LjI4Ni4xODMuNDUuMjU3bC4wNDMuMDM1Yy40ODguMzMzLjkzNy43MDQgMS4zODIgMS4wNzVsLjA0My4wMzVjLjQwNy40MDYuODEzLjg1MSAxLjE0MSAxLjMzMiAxLjA1OSAxLjQ4IDEuNjcyIDMuMjE5IDEuNjcyIDUuMTA1IDAgNS4xNDEtNC42MDYgOS4zMTctMTAuMjcgOS4zMTdzLTEwLjI3LTQuMTc2LTEwLjI3LTkuMzE3Yy0uMDQyLTQuMzI4IDMuMjU5LTcuOTg4IDcuNzQzLTkuMDIzem0tNDAuMTAyLS4yNjJjNS42NjUgMCAxMC4yNyA0LjE4IDEwLjI3IDkuMzIgMCA1LjE0MS00LjYwNSA5LjMyLTEwLjI3IDkuMzItNS42NjQgMC0xMC4yNy00LjE3OS0xMC4yNy05LjMyIDAtNS4xNCA0LjYwNi05LjMyIDEwLjI3LTkuMzJ6bTk0Ljc5IDMyLjA2N2MtLjg5NSA0LjczLTQuMTE4IDguODc1LTguODQ0IDExLjM1MS00LjQ0MiAyLjMzMi05LjkwMyAzLjA3LTE1LjY0OSAzLjgwOS0zLjEzNi40MDYtNi40MzcuODUxLTkuNjE3IDEuNTU0LTguNDc2IDEuODg3LTE2LjYyNSA1LjU4Ni0yNC41MzEgOS4xMzMtMTAuMTA2IDQuNTUxLTE5LjY0NSA4Ljg0LTI4LjQ4NCA4Ljg0LTQuNjA2IDAtOC43MjMtMS4xODMtMTIuNjMzLTMuNjYtOC45NjUtNS42MjEtOC41Mi0xNi4xNi03LjQ1Ny0yMS45My45NzYtNS40MDIgMy43MDctMTAuNDY4IDYuMzE2LTE1LjMxMi4xNi0uMjk3LjI4NS0uNTU1LjQ0NS0uODUyLjg5OS4yOTcgMS44MzYuNTIgMi44MTMuNjY4LTEuNTQ3IDcuODQgMi44NTEgMTUuOTM4IDExLjQxIDE5LjkzNGwxLjU1LjczOCAxLjY2OS0uNTU1YzcuMTMzLTIuMjkzIDEzLjczNC02LjAyNyAxOS41NjItMTEuMDIgMy4zMDEtMi44MTIgNi4xMTQtNS44NDMgOC40NzctOS4xMzYuOTM3LjE0OSAxLjg3NS4xODggMi44MTIuMTg4IDguNDc3IDAgMTUuNjA2LTUuMjkgMTcuNjQ1LTEyLjM5MWg2Ljg0NGMyLjAzOSA3LjEzNyA5LjE3MSAxMi4zOSAxNy42NDggMTIuMzkgMy4zODMgMCA2LjUyLS44NSA5LjIwNy0yLjI5MiAxLjA2MyAyLjc3MyAxLjM4NyA1LjY1Ni44MTcgOC41NDN6bTAgMCIvPjwvc3ZnPg==",
-  //     },
-  //     {
-  //       name: "JUnit",
-  //       image:
-  //         "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6I2RjNTE0YTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Ljk5Njg0IiBkPSJNNjQuMTY2IDIuMTkxYy0xNS4zMDMtLjI5Mi0yOS45IDMuNzQ2LTQyLjM5IDE1LjI5My0yNi4xMzcgMjQuMTc0LTI2LjkxNSA2NS41NjQtMS42NyA5MC42MyA0LjU0NCA0LjUxMiA5Ljk1MiA4LjY4NiAxNS44OSAxMS4yMjggMS41NTEtNS4yMTUgMS4yNDktMTEuNTExLjc1OC0xNy43LS4xMTgtLjEyMi0uMjQtLjI0My0uMzMtLjM3OC0xLjY1OS0yLjQ3My0uNDI4LTguOTI5LS40MjgtMTEuODY2IDEwLjQzNiAxLjg1IDE4LjkzNiA3LjU5IDMwLjEwOCA0LjI1NiAxMC45MzMtMy4yNjMgMTUuNDktMTkuMDMgNS44NTEtMjYuNDk0LTUuODIxLTQuNTEtMTQuNDU3LTMuODk1LTIxLjMyMi0zLjA2OC00LjEyMy40OTgtOS4yNzEgMi4wMi0xMi4xMTctMi4zNjUtMS42OC0yLjU4MS4wNTQtOC45MTYuMzM2LTExLjgzNi4wNy0uNzM2LjE0Ny0xLjQ4Ni4yMi0yLjIyNS43MzEtOS4wNjggMS45NDQtMTguMjM0IDEuOTQ0LTI3LjMwN0g4NS4zNFY0Ljk3NUM3OC4yMjQgMy4zNSA3MS4xMjIgMi4zMjUgNjQuMTY2IDIuMTl6Ii8+CiAgPHBhdGggc3R5bGU9ImRpc3BsYXk6aW5saW5lO2ZpbGw6IzIzYTE2MTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Ljk5ODQ4OCIgZD0iTTg0Ljk4MiA0Ljk0N3YyNy4wOEg1Mi43MjlsLTEuNjc2IDIwLjgyN2M3LjE1Ny0uNTYxIDEzLjc5Mi0xLjgyNCAyMC45NDQtLjE0MyA0LjkwMyAxLjE1NSA5LjUwNSAzLjQ3IDEyLjkxIDcuMjI3Qzk0LjQxIDcwLjQxIDkyLjU0IDkwLjA2OCA4MS42MyA5OC45Yy0zLjA3IDIuNDg2LTYuNTc4IDQuMTE5LTEwLjI4MiA1LjE2OS0zLjQyIDEuMDkzLTYuODU2IDEuNTU2LTEwLjMwNCAxLjU4OGE3MC45NCA3MC45NCAwIDAgMS0zLjcwOC4xMDRjLTUuMzcgMC0xMC43NDEtLjY5OC0xNS45MTctMi4xNDYtMS4zMTYtLjM2OS0zLjM1Mi0uODgyLTQuNjMyLTEuODQtLjI3MS0uMDU4LS41NDMtLjEyMS0uODE0LS4xOGwtLjQxNyAxNy40OTdjMzMuMjQgMTcuNjI2IDc1LjU4NS0xLjIzMyA4Ny41MDgtMzUuODI1IDEwLjA3OS0yOS4yMzMtNS41My03MC42NDctMzguMDgyLTc4LjMyWiIvPgo8L3N2Zz4K",
-  //     },
-  //     {
-  //       name: "CodeShip",
-  //       image:
-  //         "https://pbs.twimg.com/profile_images/1098631372653191168/YCkp3X1Y_400x400.png",
-  //     },
-  //     {
-  //       name: "Mockito",
-  //       image:
-  //         "https://static.javatpoint.com/tutorial/mockito/images/mockito.png",
-  //     },
-  //     {
-  //       name: "Sonarqube",
-  //       image:
-  //         "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjIzNzQiIHZpZXdCb3g9Ii4xIC0uMSA5NjAuMSA5MTEuNCIgd2lkdGg9IjI1MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTgzMi42IDkxMS4zaC01Mi42YzAtNDI0LjEtMzQ5LjktNzY5LjEtNzc5LjktNzY5LjF2LTUyLjZjNDU5IDAgODMyLjUgMzY4LjUgODMyLjUgODIxLjd6bTM2LjQtMjgyLjljLTYzLjItMjY2LTI3OC43LTQ4OC01NDktNTY1LjdsMTIuMS00Mi4yYzI4NS4zIDgyIDUxMi44IDMxNi41IDU3OS41IDU5Ny44em01OS4zLTI0OS43Yy02NS4xLTE0Mi0xNzYuMi0yNjUuOS0zMTIuNS0zNDguOGwxOC4zLTMwYzE0Mi4zIDg2LjYgMjU4IDIxNS44IDMyNi4xIDM2NC4yeiIgZmlsbD0iIzQ5OWNkMiIvPjwvc3ZnPg",
-  //     },
-  //     {
-  //       name: "React Testing Library",
-  //       image: "https://testing-library.com/img/octopus-128x128.png",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Testing Tools",
+    skills: [
+      {
+        name: "Jenkins",
+        image: "https://www.jenkins.io/images/logos/jenkins/jenkins.svg",
+      },
+      {
+        name: "Jest",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjOTk0MjVCIiBkPSJNMTI0LjEyOSA2My4wMmMwLTcuNjkyLTUuODI4LTE0LjE2NS0xMy42NTItMTYuMDEyTDEyOCAuMTEzSDQxLjE2bDE3LjU2MyA0Ny4wNDNjLTcuNTc4IDEuOTk2LTEzLjE2NCA4LjM1Ni0xMy4xNjQgMTUuOTAzIDAgNS41NDYgMy4wNTggMTAuNDY0IDcuNzAzIDEzLjQ5Ni0xLjgzMiAyLjM2Ny0zLjk1MyA0LjU1LTYuMzU2IDYuNjItNC41MjMgMy44NDgtOS41MzkgNi44MDUtMTQuOTU3IDguNzY2LTQuODktMi45OTYtNy4wMDgtOC4yODUtNS4wOTQtMTMuMDIgNy40NTctMi4wNyAxMi44OC04LjM5NCAxMi44OC0xNS44MjcgMC05LjEzMy04LjE5Mi0xNi41MzItMTguMjItMTYuNTMyLTEwLjA2NiAwLTE4LjI1MyA3LjQzNC0xOC4yNTMgMTYuNTcgMCA0LjUxMyAyLjAzNSA4LjY1MyA1LjI5NyAxMS42MS0uMjg2LjUyLS41NyAxLjAzNS0uODU2IDEuNTlDNC45NzMgODEuNDM4IDEuODc1IDg3LjIwNy42OTEgOTMuNjhjLTIuMzYzIDEyLjk0MSAxLjUwOCAyMy4zMzYgMTAuODQgMjkuMjE1IDUuMjU4IDMuMjkzIDExLjA0NyA0Ljk1NyAxNy4yODIgNC45NTcgMTAuNzE0IDAgMjEuNTk3LTQuODgzIDMyLjEwOS05LjYxOCA3LjUtMy4zNjMgMTUuMjQyLTYuODc5IDIyLjg2My04LjU3OCAyLjgxMy0uNjI5IDUuNzQ2LTEgOC44NDQtMS40MDYgNi4yNzMtLjgxMyAxMi43NTQtMS42NjQgMTguNTgyLTQuNzM0IDYuODA1LTMuNTg2IDExLjQ1LTkuNTc5IDEyLjc5Ny0xNi40NTcgMS4wMTUtNS4yOSAwLTEwLjYxNC0yLjYxLTE1LjI3NGExNS4zNSAxNS4zNSAwIDAwMi43My04Ljc2NXptLTcuOTQ1IDBjMCA1LjE0LTQuNjA2IDkuMzItMTAuMjcgOS4zMnMtMTAuMjctNC4xOC0xMC4yNy05LjMyYzAtMS42NjUuNDg5LTMuMjU0IDEuMzQ0LTQuNjIyLjMyNS0uNTIuNzM1LTEuMDM1IDEuMTQtMS40OGE4LjUxNyA4LjUxNyAwIDAxMS40MjctMS4yMTlsLjA0My0uMDM5Yy4zMjQtLjIyMi42OTEtLjQ0NSAxLjA1OC0uNjY0IDAgMCAuMDQgMCAuMDQtLjAzOS4xNjMtLjA3NC4zMjctLjE4NC40OTItLjI1OC4wMzkgMCAuMDc4LS4wMzkuMTItLjAzOS4xNjUtLjA3LjM2OC0uMTQ0LjU3LS4yMTlhOC43OCA4Ljc4IDAgMDAuNTcxLS4yMjJjLjA0IDAgLjA4Mi0uMDQuMTIxLS4wNC4xNjQtLjAzNC4zMjgtLjEwOS40ODktLjE0NC4wNDMgMCAuMTI1LS4wMzkuMTY0LS4wMzkuMjAzLS4wMzUuMzY3LS4wNzQuNTctLjExaC4wNDNsLjYxLS4xMTNjLjA0MiAwIC4xMiAwIC4xNjMtLjAzNS4xNjQgMCAuMzI1LS4wMzkuNDg5LS4wMzloLjIwM2MuMjAzIDAgLjQxLS4wMzUuNjUyLS4wMzVoLjUzMWMuMTYgMCAuMjg2IDAgLjQ0Ni4wMzVoLjA4MmMuMzI4LjA0LjY1Mi4wNzQuOTguMTQ5IDQuNjQ1Ljg4NiA4LjE5MiA0LjY2IDguMTkyIDkuMTcyek01Mi41MjcgNy41MDhoNjQuMTAybC0xNC43MTEgMzkuMzg3Yy0uNjEuMTEzLTEuMjIzLjI5Ni0xLjgzMi40OGwtMTUuNDg0LTI4LjY2TDY5LjA3NCA0Ny4xOWMtLjYxMy0uMTgzLTEuMjY1LS4yOTYtMS45MTQtLjQwNnpNODEuNjY0IDU5LjhjLS43NzMtMy40NzctMi43My02LjU4Mi01LjUtOC44NzVsOC40MzgtMTUuNDU3IDguNTE1IDE1Ljc4OWMtMi41MjcgMi4yOTMtNC4zNiA1LjIxNS01LjA5NCA4LjU0M3pNNjEuMjUgNTMuOTZjLjIwMy0uMDQuMzY3LS4wNzQuNTctLjExM2guMTIxYy4xNjQtLjAzNS4zMjktLjAzNS40ODktLjA3NWguMTY0Yy4xNjQgMCAuMjg1LS4wMzUuNDQ5LS4wMzVoMS41OWMuMTYgMCAuMjg1LjAzNS40MDYuMDM1LjA4MiAwIC4xMjEgMCAuMjAzLjA0LjE2NC4wMzUuMjg1LjAzNS40NS4wNzQuMDM4IDAgLjA4MSAwIC4xNjMuMDM1LjIwNC4wMzkuNDA3LjA3NC41Ny4xMTNoLjA0Yy4xNjQuMDM1LjMyOC4wNy40ODguMTQ1LjA0MyAwIC4wODIuMDM5LjE2NC4wMzkuMTIxLjAzNS4yODUuMDc0LjQwNi4xNDguMDQzIDAgLjA4Mi4wMzUuMTI1LjAzNS4xNi4wNzUuMzI1LjExNC40ODkuMTg4aC4wMzljLjIwMy4wNy4zNjcuMTQ0LjUzMS4yNThoLjA0Yy4xNjMuMDc0LjMyNy4xODMuNDkxLjI1Ny4wNCAwIC4wNC4wNC4wNzguMDQuMTY0LjA3LjI4Ni4xODMuNDUuMjU3bC4wNDMuMDM1Yy40ODguMzMzLjkzNy43MDQgMS4zODIgMS4wNzVsLjA0My4wMzVjLjQwNy40MDYuODEzLjg1MSAxLjE0MSAxLjMzMiAxLjA1OSAxLjQ4IDEuNjcyIDMuMjE5IDEuNjcyIDUuMTA1IDAgNS4xNDEtNC42MDYgOS4zMTctMTAuMjcgOS4zMTdzLTEwLjI3LTQuMTc2LTEwLjI3LTkuMzE3Yy0uMDQyLTQuMzI4IDMuMjU5LTcuOTg4IDcuNzQzLTkuMDIzem0tNDAuMTAyLS4yNjJjNS42NjUgMCAxMC4yNyA0LjE4IDEwLjI3IDkuMzIgMCA1LjE0MS00LjYwNSA5LjMyLTEwLjI3IDkuMzItNS42NjQgMC0xMC4yNy00LjE3OS0xMC4yNy05LjMyIDAtNS4xNCA0LjYwNi05LjMyIDEwLjI3LTkuMzJ6bTk0Ljc5IDMyLjA2N2MtLjg5NSA0LjczLTQuMTE4IDguODc1LTguODQ0IDExLjM1MS00LjQ0MiAyLjMzMi05LjkwMyAzLjA3LTE1LjY0OSAzLjgwOS0zLjEzNi40MDYtNi40MzcuODUxLTkuNjE3IDEuNTU0LTguNDc2IDEuODg3LTE2LjYyNSA1LjU4Ni0yNC41MzEgOS4xMzMtMTAuMTA2IDQuNTUxLTE5LjY0NSA4Ljg0LTI4LjQ4NCA4Ljg0LTQuNjA2IDAtOC43MjMtMS4xODMtMTIuNjMzLTMuNjYtOC45NjUtNS42MjEtOC41Mi0xNi4xNi03LjQ1Ny0yMS45My45NzYtNS40MDIgMy43MDctMTAuNDY4IDYuMzE2LTE1LjMxMi4xNi0uMjk3LjI4NS0uNTU1LjQ0NS0uODUyLjg5OS4yOTcgMS44MzYuNTIgMi44MTMuNjY4LTEuNTQ3IDcuODQgMi44NTEgMTUuOTM4IDExLjQxIDE5LjkzNGwxLjU1LjczOCAxLjY2OS0uNTU1YzcuMTMzLTIuMjkzIDEzLjczNC02LjAyNyAxOS41NjItMTEuMDIgMy4zMDEtMi44MTIgNi4xMTQtNS44NDMgOC40NzctOS4xMzYuOTM3LjE0OSAxLjg3NS4xODggMi44MTIuMTg4IDguNDc3IDAgMTUuNjA2LTUuMjkgMTcuNjQ1LTEyLjM5MWg2Ljg0NGMyLjAzOSA3LjEzNyA5LjE3MSAxMi4zOSAxNy42NDggMTIuMzkgMy4zODMgMCA2LjUyLS44NSA5LjIwNy0yLjI5MiAxLjA2MyAyLjc3MyAxLjM4NyA1LjY1Ni44MTcgOC41NDN6bTAgMCIvPjwvc3ZnPg==",
+      },
+      {
+        name: "JUnit",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggc3R5bGU9ImZpbGw6I2RjNTE0YTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Ljk5Njg0IiBkPSJNNjQuMTY2IDIuMTkxYy0xNS4zMDMtLjI5Mi0yOS45IDMuNzQ2LTQyLjM5IDE1LjI5My0yNi4xMzcgMjQuMTc0LTI2LjkxNSA2NS41NjQtMS42NyA5MC42MyA0LjU0NCA0LjUxMiA5Ljk1MiA4LjY4NiAxNS44OSAxMS4yMjggMS41NTEtNS4yMTUgMS4yNDktMTEuNTExLjc1OC0xNy43LS4xMTgtLjEyMi0uMjQtLjI0My0uMzMtLjM3OC0xLjY1OS0yLjQ3My0uNDI4LTguOTI5LS40MjgtMTEuODY2IDEwLjQzNiAxLjg1IDE4LjkzNiA3LjU5IDMwLjEwOCA0LjI1NiAxMC45MzMtMy4yNjMgMTUuNDktMTkuMDMgNS44NTEtMjYuNDk0LTUuODIxLTQuNTEtMTQuNDU3LTMuODk1LTIxLjMyMi0zLjA2OC00LjEyMy40OTgtOS4yNzEgMi4wMi0xMi4xMTctMi4zNjUtMS42OC0yLjU4MS4wNTQtOC45MTYuMzM2LTExLjgzNi4wNy0uNzM2LjE0Ny0xLjQ4Ni4yMi0yLjIyNS43MzEtOS4wNjggMS45NDQtMTguMjM0IDEuOTQ0LTI3LjMwN0g4NS4zNFY0Ljk3NUM3OC4yMjQgMy4zNSA3MS4xMjIgMi4zMjUgNjQuMTY2IDIuMTl6Ii8+CiAgPHBhdGggc3R5bGU9ImRpc3BsYXk6aW5saW5lO2ZpbGw6IzIzYTE2MTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6Ljk5ODQ4OCIgZD0iTTg0Ljk4MiA0Ljk0N3YyNy4wOEg1Mi43MjlsLTEuNjc2IDIwLjgyN2M3LjE1Ny0uNTYxIDEzLjc5Mi0xLjgyNCAyMC45NDQtLjE0MyA0LjkwMyAxLjE1NSA5LjUwNSAzLjQ3IDEyLjkxIDcuMjI3Qzk0LjQxIDcwLjQxIDkyLjU0IDkwLjA2OCA4MS42MyA5OC45Yy0zLjA3IDIuNDg2LTYuNTc4IDQuMTE5LTEwLjI4MiA1LjE2OS0zLjQyIDEuMDkzLTYuODU2IDEuNTU2LTEwLjMwNCAxLjU4OGE3MC45NCA3MC45NCAwIDAgMS0zLjcwOC4xMDRjLTUuMzcgMC0xMC43NDEtLjY5OC0xNS45MTctMi4xNDYtMS4zMTYtLjM2OS0zLjM1Mi0uODgyLTQuNjMyLTEuODQtLjI3MS0uMDU4LS41NDMtLjEyMS0uODE0LS4xOGwtLjQxNyAxNy40OTdjMzMuMjQgMTcuNjI2IDc1LjU4NS0xLjIzMyA4Ny41MDgtMzUuODI1IDEwLjA3OS0yOS4yMzMtNS41My03MC42NDctMzguMDgyLTc4LjMyWiIvPgo8L3N2Zz4K",
+      },
+      {
+        name: "CodeShip",
+        image:
+          "https://pbs.twimg.com/profile_images/1098631372653191168/YCkp3X1Y_400x400.png",
+      },
+      {
+        name: "Mockito",
+        image:
+          "https://static.javatpoint.com/tutorial/mockito/images/mockito.png",
+      },
+      {
+        name: "Sonarqube",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjIzNzQiIHZpZXdCb3g9Ii4xIC0uMSA5NjAuMSA5MTEuNCIgd2lkdGg9IjI1MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTgzMi42IDkxMS4zaC01Mi42YzAtNDI0LjEtMzQ5LjktNzY5LjEtNzc5LjktNzY5LjF2LTUyLjZjNDU5IDAgODMyLjUgMzY4LjUgODMyLjUgODIxLjd6bTM2LjQtMjgyLjljLTYzLjItMjY2LTI3OC43LTQ4OC01NDktNTY1LjdsMTIuMS00Mi4yYzI4NS4zIDgyIDUxMi44IDMxNi41IDU3OS41IDU5Ny44em01OS4zLTI0OS43Yy02NS4xLTE0Mi0xNzYuMi0yNjUuOS0zMTIuNS0zNDguOGwxOC4zLTMwYzE0Mi4zIDg2LjYgMjU4IDIxNS44IDMyNi4xIDM2NC4yeiIgZmlsbD0iIzQ5OWNkMiIvPjwvc3ZnPg",
+      },
+      {
+        name: "React Testing Library",
+        image: "https://testing-library.com/img/octopus-128x128.png",
+      },
+    ],
+  },
   {
     title: "Other Tools",
     skills: [
@@ -258,70 +258,70 @@ export const skills = [
       },
     ],
   },
-  // {
-  //   title: "Web Services",
-  //   skills: [
-  //     {
-  //       name: "RESTful",
-  //       image:
-  //         "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.png",
-  //     },
-  //     {
-  //       name: "SOAP",
-  //       image:
-  //         "https://www.shutterstock.com/shutterstock/photos/1759832333/display_1500/stock-vector-soap-simple-object-access-protocol-is-a-messaging-protocol-specification-for-exchanging-1759832333.jpg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Methodologies",
-  //   skills: [
-  //     {
-  //       name: "Agile",
-  //       image:
-  //         "https://as2.ftcdn.net/v2/jpg/04/25/70/79/1000_F_425707972_CSvM6Zo9vPZZOKANAMSFF5Xxvm8FV8vX.jpg",
-  //     },
-  //     {
-  //       name: "Waterfall",
-  //       image:
-  //         "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDEgMTAxIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6I2ZmZjtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjUwLjUiIGN5PSI1MC41IiByPSI1MCIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNDUiIHk9IjQxIiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNTAiIHk9IjQ1LjUiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDEwMSkgcm90YXRlKC05MCkiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjU0LjU4IiB5PSI1MCIgd2lkdGg9IjEiIGhlaWdodD0iMTAiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjQwLjQxIiB5PSIzNi41IiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuNTkgODIuNDEpIHJvdGF0ZSgtOTApIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI1OS4wOCIgeT0iNTQuODciIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4yOSAxMTkuNDUpIHJvdGF0ZSgtOTApIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzNS45MSIgeT0iMzIiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI2NC4wOCIgeT0iNTkuMzciIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzMS4zNiIgeT0iMjcuNSIgd2lkdGg9IjEiIGhlaWdodD0iMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjY0IDY0LjM3KSByb3RhdGUoLTkwKSIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNjguNTgiIHk9IjYzLjg3IiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4yMSAxMzcuOTUpIHJvdGF0ZSgtOTApIi8+PC9nPjwvZz48L3N2Zz4=",
-  //     },
-  //     {
-  //       name: "CI/CD",
-  //       image:
-  //         "https://www.synopsys.com/glossary/what-is-cicd/_jcr_content/root/synopsyscontainer/column_1946395452_co/colRight/image_copy.coreimg.svg/1663683682045/cicd.svg",
-  //     },
-  //   ],
-  // },
-  // {
-  //   title: "Oprating Systems",
-  //   skills: [
-  //     {
-  //       name: "Windows",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/768px-Windows_logo_-_2012.svg.png",
-  //     },
-  //     {
-  //       name: "Linux",
-  //       image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
-  //     },
-  //     {
-  //       name: "MacOS",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MacOS_logo_%282017%29.svg/773px-MacOS_logo_%282017%29.svg.png",
-  //     },
-  //     {
-  //       name: "Android",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/654px-Android_robot.svg.png",
-  //     },
-  //     {
-  //       name: "iOS",
-  //       image:
-  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IOS_logo.svg/768px-IOS_logo.svg.png",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Web Services",
+    skills: [
+      {
+        name: "RESTful",
+        image:
+          "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.png",
+      },
+      {
+        name: "SOAP",
+        image:
+          "https://www.shutterstock.com/shutterstock/photos/1759832333/display_1500/stock-vector-soap-simple-object-access-protocol-is-a-messaging-protocol-specification-for-exchanging-1759832333.jpg",
+      },
+    ],
+  },
+  {
+    title: "Methodologies",
+    skills: [
+      {
+        name: "Agile",
+        image:
+          "https://as2.ftcdn.net/v2/jpg/04/25/70/79/1000_F_425707972_CSvM6Zo9vPZZOKANAMSFF5Xxvm8FV8vX.jpg",
+      },
+      {
+        name: "Waterfall",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDEgMTAxIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6bm9uZTtzdHJva2U6I2ZmZjtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48Y2lyY2xlIGNsYXNzPSJjbHMtMSIgY3g9IjUwLjUiIGN5PSI1MC41IiByPSI1MCIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNDUiIHk9IjQxIiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNTAiIHk9IjQ1LjUiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwIDEwMSkgcm90YXRlKC05MCkiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjU0LjU4IiB5PSI1MCIgd2lkdGg9IjEiIGhlaWdodD0iMTAiLz48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjQwLjQxIiB5PSIzNi41IiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTAuNTkgODIuNDEpIHJvdGF0ZSgtOTApIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI1OS4wOCIgeT0iNTQuODciIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4yOSAxMTkuNDUpIHJvdGF0ZSgtOTApIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzNS45MSIgeT0iMzIiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSI2NC4wOCIgeT0iNTkuMzciIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIi8+PHJlY3QgY2xhc3M9ImNscy0xIiB4PSIzMS4zNiIgeT0iMjcuNSIgd2lkdGg9IjEiIGhlaWdodD0iMTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0wLjY0IDY0LjM3KSByb3RhdGUoLTkwKSIvPjxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iNjguNTgiIHk9IjYzLjg3IiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4yMSAxMzcuOTUpIHJvdGF0ZSgtOTApIi8+PC9nPjwvZz48L3N2Zz4=",
+      },
+      {
+        name: "CI/CD",
+        image:
+          "https://www.synopsys.com/glossary/what-is-cicd/_jcr_content/root/synopsyscontainer/column_1946395452_co/colRight/image_copy.coreimg.svg/1663683682045/cicd.svg",
+      },
+    ],
+  },
+  {
+    title: "Oprating Systems",
+    skills: [
+      {
+        name: "Windows",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Windows_logo_-_2012.svg/768px-Windows_logo_-_2012.svg.png",
+      },
+      {
+        name: "Linux",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
+      },
+      {
+        name: "MacOS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/MacOS_logo_%282017%29.svg/773px-MacOS_logo_%282017%29.svg.png",
+      },
+      {
+        name: "Android",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/654px-Android_robot.svg.png",
+      },
+      {
+        name: "iOS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IOS_logo.svg/768px-IOS_logo.svg.png",
+      },
+    ],
+  },
 ];
 
 export const experiences = [
@@ -331,7 +331,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "SCU Frugal Innovation Hub",
     date: "Jan 2023 - Present",
-    desc: "\n- Spearheaded the development of a cross-platform, accessibility-focused resource application for an NGO aiding individuals with disabilities, utilizing Flutter and Firebase (Firestore, Storage, Authentication). \n- Engineered CRUD API endpoints, integrated with Firebase Database and Google Cloud Functions, to ensure robust data validation and secure authentication mechanisms. \n- Allowed users to filter content based on resource categories and specific disability types. Also implemented functionality for employers to add and edit resource information for users to view.\n- Incorporated Google Maps API, enabling users to visualize and locate resources geographically.",
+    desc: "\n- Pioneered the creation of a cross-platform, accessibility-centric app for an NGO, aiding individuals with disabilities, leveraging Flutter and Firebase, resulting in a 25% increase in user accessibility. \n- Engineered and deployed robust CRUD API endpoints with Firestore and Google Cloud Functions, enhancing data validation and authentication, thus reducing security breaches by 30%. \n- Developed advanced filtering capabilities, enabling users to search based on resource categories and disability types, improving user experience by 40%. \n- Incorporated various map APIs by Google, significantly enhancing resource location discovery for users by providing geographic visualizations.",
     skills: ["Flutter", "Dart", "Firebase", "GCP", "Git", "Github", "Figma"],
   },
   {
@@ -340,15 +340,11 @@ export const experiences = [
     role: "Software Engineer",
     company: "Lightning Motorcycles",
     date: "June 2022 - Jan 2023",
-    desc: "\n- Led the development of a cross-platform mobile app using Flutter, allowing seamless communication between motorcycles and users on iOS, Android, and web platforms. \n- Designed and implemented user-friendly portals for both administrators and users, utilizing Firebase Authentication, Firestore, and Google Cloud Functions for secure and efficient data management. \n- Created and maintained various CRUD API endpoints to trigger specific Google Cloud Functions for data validation and authentication.",
+    desc: "\n- Directed the development of a cutting-edge, cross-platform mobile application and responsive web platform for motorcycle-user connectivity, employing React.js and React Native, increasing user engagement by 50%.\n- Crafted and implemented responsive, user-friendly interfaces for both administrators and end-users, utilizing React.js for the web and React Native for mobile platforms, enhancing user satisfaction by 40%.\n• Architected a secure and scalable backend using MongoDB, effectively managing data transactions and storage, increasing data processing speed by 30%.\n- Designed and integrated robust API endpoints with MongoDB, leveraging Firebase Authentication for secure authentication protocols, reducing unauthorized access by 45%, and enhancing system security.\n- Optimized the application's performance and user experience on both mobile and web platforms, ensuring seamless, real-time communication between motorcycles and users, which boosted user engagement rates.",
     skills: [
       "Firebase",
       "GCP",
       "Git",
-      "Bitbucket",
-      "Confluence",
-      "JIRA",
-      "Adobe XD",
       "React.js",
       "React Native",
       "Typescript",
@@ -363,7 +359,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Honeybee Tech Solutions",
     date: "Aug 2020 - Aug 2021",
-    desc: "\n- Developed a web-based Grievance Handling and HR Management system using JSP, Bootstrap for the front end, and OracleDB on the backend. \nUtilized Java, jQuery, and AJAX to support dynamic web flows and improve user experience. \n - Optimized performance by creating indexes on API queries, resulting in a 60% reduction in load time. \n - Integrated SonarQube, to address code smells, resulting in better software production discipline and quality.",
+    desc: "\n- Led the development of a sophisticated Grievance Handling and HR Management web application, utilizing Spring Boot for the backend to enhance system robustness and scalability.\n- Architected and implemented RESTful APIs with Spring Boot, streamlining backend processes and improving data exchange efficiency by 50%, thus enhancing application responsiveness and user interaction. \n- Employed JSP for frontend development, creating interactive web pages that improved user experience and facilitated smoother navigation through the application.\n- Optimized database interactions and API performance through database indexing, reducing server response times by over 40% and improving overall application efficiency.\n- Integrated Spring Security into the application, leveraging OAuth2 for secure authentication and authorization, which reduced unauthorized access by over 60% and enhanced data security.\n- Collaborated in a cross-functional team to identify and rectify bottlenecks in the application workflow, employing Spring Boot's advanced features to enhance system functionality and user satisfaction.",
     skills: [
       "Java",
       "Oracle Databases",
